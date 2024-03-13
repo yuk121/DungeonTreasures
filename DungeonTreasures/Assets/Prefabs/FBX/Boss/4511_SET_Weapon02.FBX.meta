@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 2dc96f1451791e7438fec0a4afd50cba
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Cha_Pos
+  - first:
+      1: 100004
+    second: Cylinder001
+  - first:
+      1: 100006
+    second: EffectDummy
+  - first:
+      1: 100008
+    second: Particle View 001
+  - first:
+      1: 100010
+    second: skirt_b
+  - first:
+      1: 100012
+    second: skirt_f
+  - first:
+      1: 100014
+    second: skull
+  - first:
+      1: 100016
+    second: stomach
+  - first:
+      1: 100018
+    second: Troll
+  - first:
+      1: 100020
+    second: Troll Head
+  - first:
+      1: 100022
+    second: Troll HeadNub
+  - first:
+      1: 100024
+    second: Troll L Calf
+  - first:
+      1: 100026
+    second: Troll L Clavicle
+  - first:
+      1: 100028
+    second: Troll L Clavicle_Bone
+  - first:
+      1: 100030
+    second: Troll L Finger0
+  - first:
+      1: 100032
+    second: Troll L Finger01
+  - first:
+      1: 100034
+    second: Troll L Finger0Nub
+  - first:
+      1: 100036
+    second: Troll L Finger1
+  - first:
+      1: 100038
+    second: Troll L Finger11
+  - first:
+      1: 100040
+    second: Troll L Finger1Nub
+  - first:
+      1: 100042
+    second: Troll L Finger2
+  - first:
+      1: 100044
+    second: Troll L Finger21
+  - first:
+      1: 100046
+    second: Troll L Finger2Nub
+  - first:
+      1: 100048
+    second: Troll L Finger3
+  - first:
+      1: 100050
+    second: Troll L Finger31
+  - first:
+      1: 100052
+    second: Troll L Finger3Nub
+  - first:
+      1: 100054
+    second: Troll L Foot
+  - first:
+      1: 100056
+    second: Troll L Forearm
+  - first:
+      1: 100058
+    second: Troll L Hand
+  - first:
+      1: 100060
+    second: Troll L Thigh
+  - first:
+      1: 100062
+    second: Troll L Toe0
+  - first:
+      1: 100064
+    second: Troll L Toe0Nub
+  - first:
+      1: 100066
+    second: Troll L UpperArm
+  - first:
+      1: 100068
+    second: Troll Neck
+  - first:
+      1: 100070
+    second: Troll Pelvis
+  - first:
+      1: 100072
+    second: Troll Ponytail1
+  - first:
+      1: 100074
+    second: Troll Ponytail1Nub
+  - first:
+      1: 100076
+    second: Troll Prop1
+  - first:
+      1: 100078
+    second: Troll R Calf
+  - first:
+      1: 100080
+    second: Troll R Clavicle
+  - first:
+      1: 100082
+    second: Troll R Clavicle_Bone
+  - first:
+      1: 100084
+    second: Troll R Finger0
+  - first:
+      1: 100086
+    second: Troll R Finger01
+  - first:
+      1: 100088
+    second: Troll R Finger0Nub
+  - first:
+      1: 100090
+    second: Troll R Finger1
+  - first:
+      1: 100092
+    second: Troll R Finger11
+  - first:
+      1: 100094
+    second: Troll R Finger1Nub
+  - first:
+      1: 100096
+    second: Troll R Finger2
+  - first:
+      1: 100098
+    second: Troll R Finger21
+  - first:
+      1: 100100
+    second: Troll R Finger2Nub
+  - first:
+      1: 100102
+    second: Troll R Finger3
+  - first:
+      1: 100104
+    second: Troll R Finger31
+  - first:
+      1: 100106
+    second: Troll R Finger3Nub
+  - first:
+      1: 100108
+    second: Troll R Foot
+  - first:
+      1: 100110
+    second: Troll R Forearm
+  - first:
+      1: 100112
+    second: Troll R Hand
+  - first:
+      1: 100114
+    second: Troll R Thigh
+  - first:
+      1: 100116
+    second: Troll R Toe0
+  - first:
+      1: 100118
+    second: Troll R Toe0Nub
+  - first:
+      1: 100120
+    second: Troll R UpperArm
+  - first:
+      1: 100122
+    second: Troll Spine
+  - first:
+      1: 100124
+    second: Troll Spine1
+  - first:
+      1: 100126
+    second: Troll Spine2
+  - first:
+      1: 100128
+    second: Troll_Add_Armor
+  - first:
+      1: 100130
+    second: Troll_Armor_Body
+  - first:
+      1: 100132
+    second: Troll_Armor_L_Forearm
+  - first:
+      1: 100134
+    second: Troll_Armor_L_Shoulder
+  - first:
+      1: 100136
+    second: Troll_Armor_L_Tigh
+  - first:
+      1: 100138
+    second: Troll_Armor_R_Forearm
+  - first:
+      1: 100140
+    second: Troll_Armor_R_Shoulder
+  - first:
+      1: 100142
+    second: Troll_Armor_R_Tigh
+  - first:
+      1: 100144
+    second: Troll_Body
+  - first:
+      1: 100146
+    second: Troll_Dummy
+  - first:
+      1: 100148
+    second: Troll_Weapon
+  - first:
+      1: 100150
+    second: Troll_Weapon_02
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Cha_Pos
+  - first:
+      4: 400004
+    second: Cylinder001
+  - first:
+      4: 400006
+    second: EffectDummy
+  - first:
+      4: 400008
+    second: Particle View 001
+  - first:
+      4: 400010
+    second: skirt_b
+  - first:
+      4: 400012
+    second: skirt_f
+  - first:
+      4: 400014
+    second: skull
+  - first:
+      4: 400016
+    second: stomach
+  - first:
+      4: 400018
+    second: Troll
+  - first:
+      4: 400020
+    second: Troll Head
+  - first:
+      4: 400022
+    second: Troll HeadNub
+  - first:
+      4: 400024
+    second: Troll L Calf
+  - first:
+      4: 400026
+    second: Troll L Clavicle
+  - first:
+      4: 400028
+    second: Troll L Clavicle_Bone
+  - first:
+      4: 400030
+    second: Troll L Finger0
+  - first:
+      4: 400032
+    second: Troll L Finger01
+  - first:
+      4: 400034
+    second: Troll L Finger0Nub
+  - first:
+      4: 400036
+    second: Troll L Finger1
+  - first:
+      4: 400038
+    second: Troll L Finger11
+  - first:
+      4: 400040
+    second: Troll L Finger1Nub
+  - first:
+      4: 400042
+    second: Troll L Finger2
+  - first:
+      4: 400044
+    second: Troll L Finger21
+  - first:
+      4: 400046
+    second: Troll L Finger2Nub
+  - first:
+      4: 400048
+    second: Troll L Finger3
+  - first:
+      4: 400050
+    second: Troll L Finger31
+  - first:
+      4: 400052
+    second: Troll L Finger3Nub
+  - first:
+      4: 400054
+    second: Troll L Foot
+  - first:
+      4: 400056
+    second: Troll L Forearm
+  - first:
+      4: 400058
+    second: Troll L Hand
+  - first:
+      4: 400060
+    second: Troll L Thigh
+  - first:
+      4: 400062
+    second: Troll L Toe0
+  - first:
+      4: 400064
+    second: Troll L Toe0Nub
+  - first:
+      4: 400066
+    second: Troll L UpperArm
+  - first:
+      4: 400068
+    second: Troll Neck
+  - first:
+      4: 400070
+    second: Troll Pelvis
+  - first:
+      4: 400072
+    second: Troll Ponytail1
+  - first:
+      4: 400074
+    second: Troll Ponytail1Nub
+  - first:
+      4: 400076
+    second: Troll Prop1
+  - first:
+      4: 400078
+    second: Troll R Calf
+  - first:
+      4: 400080
+    second: Troll R Clavicle
+  - first:
+      4: 400082
+    second: Troll R Clavicle_Bone
+  - first:
+      4: 400084
+    second: Troll R Finger0
+  - first:
+      4: 400086
+    second: Troll R Finger01
+  - first:
+      4: 400088
+    second: Troll R Finger0Nub
+  - first:
+      4: 400090
+    second: Troll R Finger1
+  - first:
+      4: 400092
+    second: Troll R Finger11
+  - first:
+      4: 400094
+    second: Troll R Finger1Nub
+  - first:
+      4: 400096
+    second: Troll R Finger2
+  - first:
+      4: 400098
+    second: Troll R Finger21
+  - first:
+      4: 400100
+    second: Troll R Finger2Nub
+  - first:
+      4: 400102
+    second: Troll R Finger3
+  - first:
+      4: 400104
+    second: Troll R Finger31
+  - first:
+      4: 400106
+    second: Troll R Finger3Nub
+  - first:
+      4: 400108
+    second: Troll R Foot
+  - first:
+      4: 400110
+    second: Troll R Forearm
+  - first:
+      4: 400112
+    second: Troll R Hand
+  - first:
+      4: 400114
+    second: Troll R Thigh
+  - first:
+      4: 400116
+    second: Troll R Toe0
+  - first:
+      4: 400118
+    second: Troll R Toe0Nub
+  - first:
+      4: 400120
+    second: Troll R UpperArm
+  - first:
+      4: 400122
+    second: Troll Spine
+  - first:
+      4: 400124
+    second: Troll Spine1
+  - first:
+      4: 400126
+    second: Troll Spine2
+  - first:
+      4: 400128
+    second: Troll_Add_Armor
+  - first:
+      4: 400130
+    second: Troll_Armor_Body
+  - first:
+      4: 400132
+    second: Troll_Armor_L_Forearm
+  - first:
+      4: 400134
+    second: Troll_Armor_L_Shoulder
+  - first:
+      4: 400136
+    second: Troll_Armor_L_Tigh
+  - first:
+      4: 400138
+    second: Troll_Armor_R_Forearm
+  - first:
+      4: 400140
+    second: Troll_Armor_R_Shoulder
+  - first:
+      4: 400142
+    second: Troll_Armor_R_Tigh
+  - first:
+      4: 400144
+    second: Troll_Body
+  - first:
+      4: 400146
+    second: Troll_Dummy
+  - first:
+      4: 400148
+    second: Troll_Weapon
+  - first:
+      4: 400150
+    second: Troll_Weapon_02
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: Troll_Armor_Body
+  - first:
+      23: 2300004
+    second: Troll_Armor_L_Forearm
+  - first:
+      23: 2300006
+    second: Troll_Armor_L_Shoulder
+  - first:
+      23: 2300008
+    second: Troll_Armor_L_Tigh
+  - first:
+      23: 2300010
+    second: Troll_Armor_R_Forearm
+  - first:
+      23: 2300012
+    second: Troll_Armor_R_Shoulder
+  - first:
+      23: 2300014
+    second: Troll_Armor_R_Tigh
+  - first:
+      23: 2300016
+    second: Troll_Body
+  - first:
+      23: 2300018
+    second: Troll_Weapon
+  - first:
+      23: 2300020
+    second: Troll_Weapon_02
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: Troll_Armor_Body
+  - first:
+      33: 3300004
+    second: Troll_Armor_L_Forearm
+  - first:
+      33: 3300006
+    second: Troll_Armor_L_Shoulder
+  - first:
+      33: 3300008
+    second: Troll_Armor_L_Tigh
+  - first:
+      33: 3300010
+    second: Troll_Armor_R_Forearm
+  - first:
+      33: 3300012
+    second: Troll_Armor_R_Shoulder
+  - first:
+      33: 3300014
+    second: Troll_Armor_R_Tigh
+  - first:
+      33: 3300016
+    second: Troll_Body
+  - first:
+      33: 3300018
+    second: Troll_Weapon
+  - first:
+      33: 3300020
+    second: Troll_Weapon_02
+  - first:
+      43: 4300000
+    second: Troll_Weapon001
+  - first:
+      43: 4300002
+    second: Troll_Body
+  - first:
+      43: 4300004
+    second: Troll_Weapon
+  - first:
+      43: 4300006
+    second: Troll_Weapon_02
+  - first:
+      43: 4300008
+    second: Troll_Armor_L_Shoulder
+  - first:
+      43: 4300010
+    second: Troll_Armor_R_Shoulder
+  - first:
+      43: 4300012
+    second: Troll_Armor_L_Forearm
+  - first:
+      43: 4300014
+    second: Troll_Armor_R_Forearm
+  - first:
+      43: 4300016
+    second: Troll_Armor_L_Tigh
+  - first:
+      43: 4300018
+    second: Troll_Armor_R_Tigh
+  - first:
+      43: 4300020
+    second: Troll_Armor_Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Troll
+    second: {fileID: 2100000, guid: bda080a7b06d5264086f79eba9aa446e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Troll_Weapon
+    second: {fileID: 2100000, guid: 0993ccedc489ae14d94dae3652094236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Troll_Weapon_02
+    second: {fileID: 2100000, guid: 5d263dcbe1e4c2249bdcfa07bab00b39, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - d5a486725b2cf9e4cb59d1e8838d7a1e
+  - 8c1acd128913e2643982c5ea2d083c19
+  - ab28518104da09a43b3f0d6e8cac64cf
+  - 617203f3f08cf0141a6ad3bd504da3cd
+  - 2c34cecd91a771245ac401798c469c56
+  - c72d12beea5b7a443a9a8b3135ba7df0
+  - 7c4ce4fe872659e4db06b0294fec399f
+  - 880be9da7d8b49241b1d9c7b10f7fa65
+  - 4b7d79e0ffd94524db017c4f137f552d
+  - a8d7d3dbe916703468e1af8e1a0e8261
+  - 18fcc34d350648c4b9c4d8c589da0ec2
+  - ef3f6549105c21747ba51479a6af135d
+  - dc4e77ea7cd6fa24f91a053ae025b808
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

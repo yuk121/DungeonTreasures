@@ -1,0 +1,810 @@
+fileFormatVersion: 2
+guid: 2921c50625935364db04adfe0431aeae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6574626049666073108
+    second: DungeonUIAtlas_0
+  - first:
+      213: 3592661133375808358
+    second: DungeonUIAtlas_1
+  - first:
+      213: -1878491936992779103
+    second: DungeonUIAtlas_2
+  - first:
+      213: -5628408023356468857
+    second: DungeonUIAtlas_3
+  - first:
+      213: 3918334503852142082
+    second: DungeonUIAtlas_4
+  - first:
+      213: 4660836532371698567
+    second: DungeonUIAtlas_5
+  - first:
+      213: 8787623737446232295
+    second: DungeonUIAtlas_6
+  - first:
+      213: 3088367452535882836
+    second: DungeonUIAtlas_7
+  - first:
+      213: -760086326947216518
+    second: DungeonUIAtlas_8
+  - first:
+      213: -4673020474950571558
+    second: DungeonUIAtlas_9
+  - first:
+      213: 627279384483049885
+    second: DungeonUIAtlas_10
+  - first:
+      213: 4874429618898883712
+    second: DungeonUIAtlas_11
+  - first:
+      213: -5293124806649071247
+    second: DungeonUIAtlas_12
+  - first:
+      213: 7219231821821694345
+    second: DungeonUIAtlas_13
+  - first:
+      213: 6586238005343282782
+    second: DungeonUIAtlas_14
+  - first:
+      213: 1638815578024166234
+    second: DungeonUIAtlas_15
+  - first:
+      213: -4504109188570926135
+    second: DungeonUIAtlas_16
+  - first:
+      213: 3783775455431860868
+    second: DungeonUIAtlas_17
+  - first:
+      213: 451536769010807620
+    second: DungeonUIAtlas_18
+  - first:
+      213: -4672234399718461789
+    second: DungeonUIAtlas_19
+  - first:
+      213: 154916168839038722
+    second: DungeonUIAtlas_20
+  - first:
+      213: -2839222863651792503
+    second: DungeonUIAtlas_21
+  - first:
+      213: -3227204203642636571
+    second: DungeonUIAtlas_22
+  - first:
+      213: -7468359250809880995
+    second: DungeonUIAtlas_23
+  - first:
+      213: -3930108708286367222
+    second: DungeonUIAtlas_24
+  - first:
+      213: -1214000981489390439
+    second: DungeonUIAtlas_25
+  - first:
+      213: 2698045747201842664
+    second: DungeonUIAtlas_26
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 4
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonUIAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 898
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25e3f8ee99dbd143baade53f457f0ed
+      internalID: -6574626049666073108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 898
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c4668e7d4634c4ba09eb0b53d13910
+      internalID: 3592661133375808358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 165
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc048902c8350e43aa994d7452acfd3
+      internalID: -1878491936992779103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 723
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c56c12b592e3045ad2c985d9c73530
+      internalID: -5628408023356468857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 507
+        width: 179
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d7cc3ae0a08be4eaa45060b33438a6
+      internalID: 3918334503852142082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 485
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39ebe23be85d3242a35c060df1ee5fd
+      internalID: 4660836532371698567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 179
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cf13b8a8a8da0449c69c99db77aeb9
+      internalID: 8787623737446232295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 467
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e36e6895874147989acc6381428fb
+      internalID: 3088367452535882836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 310
+        width: 165
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9501ea7f0f86b04b92b97288eebc3c5
+      internalID: -760086326947216518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 452
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5fb3f295ba0b149a3ab577ac34244d
+      internalID: -4673020474950571558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 418
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4bd421acd7bed47893b08a04f224a6
+      internalID: 627279384483049885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e112ad7cacde7a4ba47ea015bc7bbd7
+      internalID: 4874429618898883712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 361
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57497e9634a16ce46b2026f7323fbbf9
+      internalID: -5293124806649071247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 372
+        width: 202
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 8, z: 8, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44361484f9a3e4dbb0054820f6ac66
+      internalID: 7219231821821694345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 372
+        width: 184
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15bba80b35ec14fafa8cbc771c71f5
+      internalID: 6586238005343282782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 291
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c49a2646efcdf4da9337c663fbc477
+      internalID: 1638815578024166234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 310
+        width: 422
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98ef37541731304d85f5b380124ca32
+      internalID: -4504109188570926135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 255
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea775daa200884ead0501baee242db
+      internalID: 3783775455431860868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 155
+        width: 388
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e5e41fb5f68744a2f35b17ea9379f
+      internalID: 451536769010807620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 155
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5776a1d2159b14fb0d0a2b8c653a99
+      internalID: -4672234399718461789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 155
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0a824e8b4289439f9abd1afd39af8
+      internalID: 154916168839038722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 155
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb24941b278232448c3762627aba07a
+      internalID: -2839222863651792503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 388
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d541414661d4d354db711ac69b2a358f
+      internalID: -3227204203642636571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 75
+        width: 110
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c1a6d05f1b71b45b8e40f48c19090f
+      internalID: -7468359250809880995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757fe55fc51eb154188e16f0784cf1a5
+      internalID: -3930108708286367222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03910156bad751447a2d8af33af58597
+      internalID: -1214000981489390439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonUIAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 160
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75a5dc0149114408b04db10bec31ba
+      internalID: 2698045747201842664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DungeonUIAtlas_7: 3088367452535882836
+      DungeonUIAtlas_25: -1214000981489390439
+      DungeonUIAtlas_15: 1638815578024166234
+      DungeonUIAtlas_2: -1878491936992779103
+      DungeonUIAtlas_12: -5293124806649071247
+      DungeonUIAtlas_6: 8787623737446232295
+      DungeonUIAtlas_22: -3227204203642636571
+      DungeonUIAtlas_23: -7468359250809880995
+      DungeonUIAtlas_26: 2698045747201842664
+      DungeonUIAtlas_19: -4672234399718461789
+      DungeonUIAtlas_3: -5628408023356468857
+      DungeonUIAtlas_21: -2839222863651792503
+      DungeonUIAtlas_1: 3592661133375808358
+      DungeonUIAtlas_8: -760086326947216518
+      DungeonUIAtlas_11: 4874429618898883712
+      DungeonUIAtlas_20: 154916168839038722
+      DungeonUIAtlas_5: 4660836532371698567
+      DungeonUIAtlas_0: -6574626049666073108
+      DungeonUIAtlas_18: 451536769010807620
+      DungeonUIAtlas_10: 627279384483049885
+      DungeonUIAtlas_4: 3918334503852142082
+      DungeonUIAtlas_13: 7219231821821694345
+      DungeonUIAtlas_24: -3930108708286367222
+      DungeonUIAtlas_16: -4504109188570926135
+      DungeonUIAtlas_14: 6586238005343282782
+      DungeonUIAtlas_9: -4673020474950571558
+      DungeonUIAtlas_17: 3783775455431860868
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

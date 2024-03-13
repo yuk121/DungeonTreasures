@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197296602363",
+    "firebase_url": "https://dungeon-treasures.firebaseio.com",
+    "project_id": "dungeon-treasures",
+    "storage_bucket": "dungeon-treasures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197296602363:android:8e77eddd4f9a12548e845e",
+        "android_client_info": {
+          "package_name": "com.duddnr.DungeonTreasures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197296602363-ajm382t41gdrb4knves4ut7ai5ms55la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxT0FFk3CR0zt9pHUNqWiO9urLL9qRKz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197296602363-ajm382t41gdrb4knves4ut7ai5ms55la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
