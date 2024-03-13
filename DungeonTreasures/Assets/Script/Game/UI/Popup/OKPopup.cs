@@ -8,18 +8,15 @@ public class OKPopup : MonoBehaviour
     [SerializeField]
     Text m_noticeText = null;
     [SerializeField]
-    Text m_subjectText = null;
-    [SerializeField]
     Text m_mainText = null;
     [SerializeField]
     Text m_okButtonText = null;
 
     PopupManager.OKButtonDelgate m_okBtnDelegate;
 
-    public void SetOKPopup(string noticeText, string subjectText, string mainText, PopupManager.OKButtonDelgate okbtnDel, string okButtonText)
+    public void SetOKPopup(string noticeText, string mainText, PopupManager.OKButtonDelgate okbtnDel, string okButtonText)
     {
         m_noticeText.text = noticeText;
-        m_subjectText.text = subjectText;
         m_mainText.text = mainText;
         m_okButtonText.text = okButtonText;
 

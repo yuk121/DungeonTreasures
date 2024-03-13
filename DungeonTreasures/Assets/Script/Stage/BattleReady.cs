@@ -31,7 +31,7 @@ public class BattleReady : MonoBehaviour
         {
             if(PopupManager.Instance != null)
             {
-                PopupManager.Instance.CreateOKPopup("알림", "!!!", "행동력이 부족합니다!", null);
+                PopupManager.Instance.CreateOKPopup("알림", "행동력이 부족합니다!", null);
             }
         }
     }

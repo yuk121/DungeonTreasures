@@ -17,14 +17,14 @@ public class PopupManager : DontDestory<PopupManager>
     public delegate void OKButtonDelgate();
     public delegate void CancelButtonDelegae();
 
-    public void CreateOKPopup(string notice, string subject, string main, OKButtonDelgate okbtndel, string okbtn = "확인")
+    public void CreateOKPopup(string notice, string main, OKButtonDelgate okbtndel, string okbtn = "확인")
     {
         var obj = Instantiate(m_okPopupObj) as GameObject;
         obj.transform.SetParent(m_canvas.transform);
 
         var okPopup = obj.GetComponent<OKPopup>();
 
-        okPopup.SetOKPopup(notice, subject, main, okbtndel, okbtn);
+        okPopup.SetOKPopup(notice, main, okbtndel, okbtn);
         m_popupList.Add(obj);
         Debug.Log(m_popupList.Count);
         obj.name = string.Format("OKPopup {0}", m_popupList.Count);
@@ -40,7 +40,7 @@ public class PopupManager : DontDestory<PopupManager>
         }
         var okCancelPopup = obj.GetComponent<OKCancelPopup>();
 
-        okCancelPopup.SetOKCancelPopup(notice, subject, main, okbtndel, cancelbtndel, okbtn, cancelbtn);
+        okCancelPopup.SetOKCancelPopup(notice, main, okbtndel, cancelbtndel, okbtn, cancelbtn);
         m_popupList.Add(obj);
         obj.name = string.Format("OKCancelPopup {0}", m_popupList.Count);
     }
@@ -90,7 +90,7 @@ public class PopupManager : DontDestory<PopupManager>
                 ClosePopup();
             }
 
-            CreateOKCancelPopup("Notice", "종료 확인", "\n\n\n\n\t\t\t\t\t게임을 종료하시겠습니까?", () =>
+            CreateOKCancelPopup("Notice", "확인", "게임을 종료하시겠습니까?", () =>
             {
 #if (UNITY_EDITOR)
                 UnityEditor.EditorApplication.isPlaying = false;
@@ -102,11 +102,7 @@ public class PopupManager : DontDestory<PopupManager>
             },
             () =>
             {
-                if(TitleManager.Instance != null)
-                {
-                    TitleManager.Instance.PopFalse();
-                    ClosePopup();
-                }
+                ClosePopup();
             }
             , "예", "아니오");
         }

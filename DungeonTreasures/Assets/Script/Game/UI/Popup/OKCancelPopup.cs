@@ -8,8 +8,6 @@ public class OKCancelPopup : MonoBehaviour
     [SerializeField]
     Text m_noticeText = null;
     [SerializeField]
-    Text m_subjectText = null;
-    [SerializeField]
     Text m_mainText = null;
     [SerializeField]
     Text m_okButtonText = null;
@@ -19,10 +17,9 @@ public class OKCancelPopup : MonoBehaviour
     PopupManager.OKButtonDelgate m_okBtnDelegate;
     PopupManager.CancelButtonDelegae m_cancelBtnDelegate;
 
-    public void SetOKCancelPopup(string noticeText, string subjectText, string mainText, PopupManager.OKButtonDelgate okbtnDel, PopupManager.CancelButtonDelegae cancelBtnDel, string okButtonText, string cancelButtonText)
+    public void SetOKCancelPopup(string noticeText,string mainText, PopupManager.OKButtonDelgate okbtnDel, PopupManager.CancelButtonDelegae cancelBtnDel, string okButtonText, string cancelButtonText)
     {
         m_noticeText.text = noticeText;
-        m_subjectText.text = subjectText;
         m_mainText.text = mainText;
         m_okButtonText.text = okButtonText;
         m_cancelButtonText.text = cancelButtonText;
