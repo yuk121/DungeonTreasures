@@ -149,6 +149,25 @@ public class PlayerDataManager : DontDestory<PlayerDataManager>
         return m_playerData.m_playerClearDungeons[stageIndex];
     }
 
+    public bool GetDungeonLock(int stageIndex)
+    {
+        int lastClear = 0;
+        
+        for(int i = m_playerData.m_playerClearDungeons.Length-1; i > 0 ; i--)
+        {
+            if (m_playerData.m_playerClearDungeons[i] == true)
+            {
+                lastClear = i;
+                break;
+            }
+        }
+
+        if (lastClear < stageIndex)
+            return true;
+
+        return false;
+    }
+
     public bool GetIsLoad()
     {
         return m_isLoad;

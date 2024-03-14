@@ -423,7 +423,7 @@
 "Assets/Script/Manager/TitleManager.cs"
 "Assets/Script/Manager/TouchManager.cs"
 "Assets/Script/Stage/BackButton.cs"
-"Assets/Script/Stage/BattleReady.cs"
+"Assets/Script/Stage/Panel_BattleReady.cs"
 "Assets/Script/Stage/StageInfo.cs"
 "Assets/Script/Title/TitleAnimationController.cs"
 "Assets/Script/Utill/Calculation.cs"

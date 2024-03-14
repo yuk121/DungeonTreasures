@@ -15,7 +15,7 @@ C:/Users/0dudd/Documents/GitHub/DungeonTreasures/DungeonTreasures
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52258
+51383
 Successfully changed project path to: C:/Users/0dudd/Documents/GitHub/DungeonTreasures/DungeonTreasures
 C:/Users/0dudd/Documents/GitHub/DungeonTreasures/DungeonTreasures
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/0dudd/Documents/GitHub/DungeonTreasures/DungeonTreasures
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21952] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2458720839 [EditorId] 2458720839 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2KU88H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16824] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2750216514 [EditorId] 2750216514 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2KU88H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21952] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2458720839 [EditorId] 2458720839 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2KU88H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16824] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2750216514 [EditorId] 2750216514 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S2KU88H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 46.70 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 45.71 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,103 +67,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009225 seconds.
+Registered in 0.010766 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 32.29 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 29.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
+- Completed reload, in  0.441 seconds
 Domain Reload Profiling:
-	ReloadAssembly (801ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (441ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (515ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (210ms)
+			SetupLoadedEditorAssemblies (171ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
+				InitializePlatformSupportModulesInManaged (43ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (32ms)
+				RefreshPlugins (30ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (57ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009935 seconds.
+Registered in 0.012556 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
-  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x00018] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:104 
-  at Google.ProjectSettings.Load () [0x00016] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:777 
-  at Google.ProjectSettings.LoadIfEmpty () [0x00023] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:558 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue, Google.SettingsLocation location) [0x00035] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:606 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue) [0x00001] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:619 
-  at Google.IOSResolver.get_VerboseLoggingEnabled () [0x00001] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1039 
-  at Google.IOSResolver..cctor () [0x00223] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (449ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (363ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (289ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
@@ -171,12 +150,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2415 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 139 unused Assets / (59.4 KB). Loaded Objects now: 2818.
-Memory consumption went from 185.6 MB to 185.5 MB.
-Total: 2.358400 ms (FindLiveObjects: 0.135200 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.994800 ms  DeleteObjects: 0.169000 ms)
+Unloading 139 unused Assets / (59.5 KB). Loaded Objects now: 2818.
+Memory consumption went from 185.5 MB to 185.4 MB.
+Total: 2.114200 ms (FindLiveObjects: 0.126300 ms CreateObjectMapping: 0.062600 ms MarkObjects: 1.820300 ms  DeleteObjects: 0.103900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -189,265 +168,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 770482.466086 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3e3f7decb2f058fb560ee056673705') in 0.070758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.079012 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038abc4afc7a2200df5298424d702fe2') in 0.007996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.866875 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7b57486ff559b7ebe85a7ed3579831') in 0.008199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.022080 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c72cc3643ce18ee13a596d40ded08') in 0.009424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.002873 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6102b26bf15e498dab6223c016d06c40') in 0.007751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.638936 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b659d56cf23a9bffc9844e3115e7c54c') in 0.007553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.614238 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3409fb663a15cb41147113bc6cc384e0') in 0.008100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.644408 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268d98d12307a32b978fdd5b6285a47a') in 0.008108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.821332 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869b53259b384515a001564556e9f728') in 0.008142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.261725 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60667a1d929025d16763721a6c6b8908') in 0.008371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.622771 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accad93367f85fd961b45553491582e5') in 0.008585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.423440 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b7937d7b755187c7357cfefac74211') in 0.008673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.466775 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bfd2c9a4e56c4094b687af606bce86') in 0.008148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.989927 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd51042a95f37b5f5da34dfd420f29c6') in 0.007432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.836892 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d73f0888b31f16f3e13fb3219e913b8') in 0.007323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.050219 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2497bff6a8a1ae79286d96b0549a343') in 0.007817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.806248 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b5e777258f9e2311a430b0b9f9a4e') in 0.007388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.004188 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faeee2ca48adc0f029e6368592428e0') in 0.009105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.280912 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fa58ffa5bf69526d8a3aabb3ec8cd2') in 0.009123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.027195 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09f20c2e1efffdcc4de3f4347cc5d6c') in 0.008353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.613583 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ac9607d5a4434761ae2fd96506c5f8') in 0.007740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.018366 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10227fb0dac3da74f0bf16c1a8ebca07') in 0.009563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.607220 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091979d9402ad8cd9a8f2301cc331371') in 0.007876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.620792 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e711fb33295068bbee7ffc1bba77a78') in 0.007236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.200239 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712c198acfa1c7907933783971225b23') in 0.008308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.422465 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200fe32cf6e6cdb853de068bcc6664f6') in 0.008216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.872576 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1effb980adb62dff4e07ca678de2b373') in 0.007702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.883249 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27f3e219f11f35052d129b7ac08f419') in 0.008025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.219818 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb8ed818032f36ec8cbd58523effe58') in 0.007200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.846257 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8cac713c160fe9ff2f3d578d4bbba7') in 0.007159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.806539 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862297e3e6f389e30da3c1b374dd7e2d') in 0.007724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.633062 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be8f616f3b96b07855a98dd418d64bf') in 0.008396 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008539 seconds.
+Registered in 0.104874 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.962 seconds
 Domain Reload Profiling:
-	ReloadAssembly (978ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (724ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (540ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (442ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.97 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.33 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.5 KB). Loaded Objects now: 2824.
-Memory consumption went from 183.8 MB to 183.7 MB.
-Total: 2.370800 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.137900 ms  DeleteObjects: 0.033100 ms)
+Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2821.
+Memory consumption went from 183.5 MB to 183.5 MB.
+Total: 2.118600 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.915600 ms  DeleteObjects: 0.033500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -462,798 +226,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006998 seconds.
+Registered in 0.014054 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Domain Reload Profiling:
-	ReloadAssembly (753ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.47 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2827.
-Memory consumption went from 183.8 MB to 183.7 MB.
-Total: 1.952600 ms (FindLiveObjects: 0.121300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.758400 ms  DeleteObjects: 0.025400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12178.879569 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871a001c3338e7c44d0ba4ef9a93d5c0') in 0.064219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.589954 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efef44a6e638ecd161d3488a815ada8') in 0.007685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.390912 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95a77929bd51a052491dea5e45b8309') in 0.007331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.815919 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1b28c69eff20a6c39c0f6b3e2e3af') in 0.007726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.889120 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a6bbc8a52487ff4328a4416ccdd7e6') in 0.007547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.398714 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481c0acabdfe77e8a27a20c924cda67a') in 0.007764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.592014 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435acaf01904c3a5bbf12ab10cc9a0e6') in 0.006872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.438935 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af157bd7a4c216c217cef950e8d4000d') in 0.007200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.602590 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646a8a1346267bdb478c14f098d2a056') in 0.007178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.406137 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72928c6c2c88248de556859b6d30b805') in 0.007886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.219337 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a426807fc8093f50a47a4420de0b3b6') in 0.008162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.032756 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457401d8d95c140d7b256d48e66c7f4d') in 0.006968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.189884 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0704cc39688da6d3ed8dca86080221d1') in 0.007027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.027423 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ce1ed4956822dd216d34c328956e9') in 0.007091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.596386 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c9c63a382b0ee46fed859942f9e0f5') in 0.007983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.323551 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c98d9eb524c88b4ed24022452c70cb') in 0.007051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.207536 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52396eb4ecdcde8343cd24cf7353a54') in 0.006956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.190776 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ad7d01d46dfbe312404374502f2e6d') in 0.008990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.192189 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c15dd0a3b42e2287805524cee40fb48') in 0.007135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.791326 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f2e00250b4ee333730033b9af1850c') in 0.007145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.458655 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1109c3e7d21cb4792008afccadb29c0') in 0.007042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.011496 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5951c51e68d7d6742d0703291cec2059') in 0.008000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.216303 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fb22bd44689282f0d1eaac434de9ba') in 0.007330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.058818 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badd14ab3b8f729fce013046ee3d21f2') in 0.007566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.042595 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569fc423dfa52bff027078e6c23338f0') in 0.007304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.615560 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58ca3aa9ec27bc362ec4d68b698f0fe') in 0.007490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.290621 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94c89768647875cec6cbdcea1bfb94a') in 0.007480 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016189 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1173ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (901ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (471ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.58 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.5 KB). Loaded Objects now: 2830.
-Memory consumption went from 183.8 MB to 183.8 MB.
-Total: 1.947700 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.758100 ms  DeleteObjects: 0.028000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.725569 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03228c9775f72ba1c3a6e958b4725c29') in 0.032328 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.770 seconds
-Domain Reload Profiling:
-	ReloadAssembly (770ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (617ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.77 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.4 KB). Loaded Objects now: 2833.
-Memory consumption went from 183.8 MB to 183.8 MB.
-Total: 2.033800 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.831900 ms  DeleteObjects: 0.032800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 486.593637 seconds.
-  path: Assets/Script/Game/UI/Popup/OKCancelPopup.cs
-  artifactKey: Guid(69650ae77007687498b345380504f6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Game/UI/Popup/OKCancelPopup.cs using Guid(69650ae77007687498b345380504f6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd1167ada051ce4ea109a897fe6954') in 0.016601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.512559 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a529f9f12e6906f80068e909b09c506') in 0.033738 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013897 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1119ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (672ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (479ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.00 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.4 KB). Loaded Objects now: 2836.
-Memory consumption went from 183.7 MB to 183.7 MB.
-Total: 3.290300 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.902300 ms  DeleteObjects: 0.041200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007888 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (778ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2839.
-Memory consumption went from 183.8 MB to 183.8 MB.
-Total: 1.919300 ms (FindLiveObjects: 0.115600 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.737600 ms  DeleteObjects: 0.021200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007692 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Domain Reload Profiling:
-	ReloadAssembly (755ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (604ms)
-			LoadAssemblies (60ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (368ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.86 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2842.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 2.263900 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.056300 ms  DeleteObjects: 0.026600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 380.318912 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eb1a3714adf59d1e38b914e946336a') in 0.030610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.238364 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add490d1baa9fd25531464cdf0d5d1d1') in 0.016217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.673753 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dff9a62e5f609b800680e55c6bf271') in 0.009859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.455427 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a89f0187ea62f0ec9d055e2eb5b7b70') in 0.010751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.208488 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e2ef6ba1f46fe0a746929f5a56ad38') in 0.007899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.822952 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6296ca60fd4232c372afc2f109c25993') in 0.007109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.245399 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582fd72dbe74d8442133703d116766dd') in 0.007373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.167795 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa23591c90e48c0a4e0be6aaba0d2139') in 0.007727 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007445 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
-Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (64ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (388ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.90 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.5 KB). Loaded Objects now: 2845.
-Memory consumption went from 183.9 MB to 183.8 MB.
-Total: 2.013500 ms (FindLiveObjects: 0.140700 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.790600 ms  DeleteObjects: 0.030500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 84.309598 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78772598edc669d15ad708efd8784e1') in 0.031732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.043834 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f490a82fa3e562ffe88437b34b132bc9') in 0.007081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.836092 seconds.
-  path: Assets/Prefabs/UI/Popup/PopupOKCancel.prefab
-  artifactKey: Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Popup/PopupOKCancel.prefab using Guid(cfb8c85c171d91a45aaa0c2831109531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699ed8b899b02449363710dd3040c3a') in 0.007605 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008068 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (724ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (437ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.92 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (35.5 KB). Loaded Objects now: 2848.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 2.151200 ms (FindLiveObjects: 0.123900 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.941300 ms  DeleteObjects: 0.038600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
@@ -1277,40 +255,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.833 seconds
 Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (672ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.98 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.12 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.3 KB). Loaded Objects now: 2851.
-Memory consumption went from 183.8 MB to 183.8 MB.
-Total: 1.978500 ms (FindLiveObjects: 0.120200 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.789100 ms  DeleteObjects: 0.020900 ms)
+Unloading 53 unused Assets / (33.1 KB). Loaded Objects now: 2824.
+Memory consumption went from 183.7 MB to 183.6 MB.
+Total: 2.296600 ms (FindLiveObjects: 0.124300 ms CreateObjectMapping: 0.049800 ms MarkObjects: 2.095100 ms  DeleteObjects: 0.026000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1323,127 +301,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 38108.833243 seconds.
+  path: Assets/Script/Data/PlayerData.cs
+  artifactKey: Guid(7435556d6d654dc4d9a707e40808736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Data/PlayerData.cs using Guid(7435556d6d654dc4d9a707e40808736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f46ba91c2ea762c567a1990f917b20c') in 0.027579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873346 seconds.
+  path: Assets/Prefabs/UI/Popup/Option_UI.prefab
+  artifactKey: Guid(3feb875db3514254a8b71765fa674acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Popup/Option_UI.prefab using Guid(3feb875db3514254a8b71765fa674acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666b257980ca747c7d8740830e5863c0') in 0.041850 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007176 seconds.
+Registered in 0.012806 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
+  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
+Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (746ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (584ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.49 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.3 KB). Loaded Objects now: 2854.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 1.958400 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.774200 ms  DeleteObjects: 0.022000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008170 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
-  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x00018] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/XmlUtilities.cs:104 
-  at Google.ProjectSettings.Load () [0x00016] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:777 
-  at Google.ProjectSettings.LoadIfEmpty () [0x00023] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:558 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue, Google.SettingsLocation location) [0x00035] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:606 
-  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue) [0x00001] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:619 
-  at Google.IOSResolver.get_VerboseLoggingEnabled () [0x00001] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1039 
-  at Google.IOSResolver..cctor () [0x00223] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Domain Reload Profiling:
-	ReloadAssembly (806ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (386ms)
+			SetupLoadedEditorAssemblies (363ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.69 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.69 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2857.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 1.944200 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.747000 ms  DeleteObjects: 0.023700 ms)
+Unloading 55 unused Assets / (34.8 KB). Loaded Objects now: 2828.
+Memory consumption went from 183.7 MB to 183.7 MB.
+Total: 1.950000 ms (FindLiveObjects: 0.118800 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.756500 ms  DeleteObjects: 0.024000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1458,127 +394,160 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007923 seconds.
+Registered in 0.014004 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.892 seconds
 Domain Reload Profiling:
-	ReloadAssembly (806ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (653ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (393ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2831.
+Memory consumption went from 183.7 MB to 183.7 MB.
+Total: 1.950300 ms (FindLiveObjects: 0.113800 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.756600 ms  DeleteObjects: 0.025400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2834.
+Memory consumption went from 183.6 MB to 183.6 MB.
+Total: 1.918200 ms (FindLiveObjects: 0.122900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.724900 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.19 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2860.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 2.313000 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.094800 ms  DeleteObjects: 0.029700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011134 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.929 seconds
-Domain Reload Profiling:
-	ReloadAssembly (929ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (704ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.41 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2863.
-Memory consumption went from 183.9 MB to 183.9 MB.
-Total: 2.390300 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.162500 ms  DeleteObjects: 0.044100 ms)
+Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2837.
+Memory consumption went from 183.8 MB to 183.7 MB.
+Total: 1.984100 ms (FindLiveObjects: 0.122500 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.789200 ms  DeleteObjects: 0.024800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1592,181 +561,46 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5964.534289 seconds.
-  path: Assets/Scenes/Lobby.unity
-  artifactKey: Guid(789c10930938a1441993422d88dca3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lobby.unity using Guid(789c10930938a1441993422d88dca3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e8000dcd94b243c11c9388f3854f21') in 0.009470 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009588 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
-Domain Reload Profiling:
-	ReloadAssembly (798ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (383ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.2 KB). Loaded Objects now: 2866.
-Memory consumption went from 183.8 MB to 183.8 MB.
-Total: 2.192600 ms (FindLiveObjects: 0.126800 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.997600 ms  DeleteObjects: 0.022500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 325.140227 seconds.
+  path: Assets/Resources/Image/FantasyGameMap/Markers/Completed.png
+  artifactKey: Guid(78de2a8e321c8a3479dfe9eee1dfecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/FantasyGameMap/Markers/Completed.png using Guid(78de2a8e321c8a3479dfe9eee1dfecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268326a7a0a6b9e6d886e9a6f7420914') in 0.087513 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 569.768935 seconds.
-  path: Assets/Scenes/Lobby.unity
-  artifactKey: Guid(789c10930938a1441993422d88dca3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lobby.unity using Guid(789c10930938a1441993422d88dca3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0ea63e8ba5f46b5746635b9fd7ad66') in 0.004396 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\ProjectSettings\GvhProjectSettings.xml
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
-  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <a5f27ff16dbd412e8a8826b0f221013b>:0 
-  at Google.ProjectSettings.Save () [0x00079] in /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Google.Logger:Log (string,Google.LogLevel) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
-Google.ProjectSettings:Save () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
-Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
-Google.ProjectSettings:SetBool (string,bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
-Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
-Google.IOSResolver:.cctor () (at /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: /Users/amaurice/Documents/GitHub/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (551ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (107ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (330ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.85 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (33.1 KB). Loaded Objects now: 2869.
-Memory consumption went from 184.0 MB to 183.9 MB.
-Total: 2.165700 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.973600 ms  DeleteObjects: 0.025300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Effects/Fantasy effects pack/Materials/IceCrater2.mat
+  artifactKey: Guid(590dc67c9cda1de45becbb90231bb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Effects/Fantasy effects pack/Materials/IceCrater2.mat using Guid(590dc67c9cda1de45becbb90231bb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee70a263f896dd5b9df826d29f03188') in 0.091046 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.722708 seconds.
-  path: Assets/Scenes/Stage.unity
-  artifactKey: Guid(da11abe12cb04cf44910da362a564e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage.unity using Guid(da11abe12cb04cf44910da362a564e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a44d96b31601655471a8d3de7b28e') in 0.009754 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Effects/Fantasy effects pack/Materials/MeteorCrater.mat
+  artifactKey: Guid(510ec59e16c5fb14b89d3fa2846b7315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Effects/Fantasy effects pack/Materials/MeteorCrater.mat using Guid(510ec59e16c5fb14b89d3fa2846b7315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d4d524d7a4c2ae63db214c7405e21') in 0.027635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.331557 seconds.
-  path: Assets/Prefabs/UI/Stage/ActivePoint.prefab
-  artifactKey: Guid(952ac5bdf43df2e4f81cee3e1d55a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Stage/ActivePoint.prefab using Guid(952ac5bdf43df2e4f81cee3e1d55a160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55e73e1552e6044b1cb3624cfa6712a') in 0.070308 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Effects/Fantasy effects pack/Materials/ProjectorCraterCircle.mat
+  artifactKey: Guid(3b2a1c0754a10e14d806b243606c217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Effects/Fantasy effects pack/Materials/ProjectorCraterCircle.mat using Guid(3b2a1c0754a10e14d806b243606c217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faff4ad2bb0c7f65013c6f0b3d484fa') in 0.022442 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/UI/Stage/Button_SnowMountain.prefab
-  artifactKey: Guid(f678b3b1a5b5cd049bdadb74e8668021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Stage/Button_SnowMountain.prefab using Guid(f678b3b1a5b5cd049bdadb74e8668021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c595e46677bf520b62485c560aca521') in 0.012332 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Effects/Fantasy effects pack/Textures/Crater5.png
+  artifactKey: Guid(75d795626ddee2849824d1ca37ec9df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Effects/Fantasy effects pack/Textures/Crater5.png using Guid(75d795626ddee2849824d1ca37ec9df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5452f6c6444f60dfb2deeb695466bb') in 0.012620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/UI/Stage/Panel_BattleReady.prefab
-  artifactKey: Guid(da55737b986d51a46b0ee3acb00eec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Stage/Panel_BattleReady.prefab using Guid(da55737b986d51a46b0ee3acb00eec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3497b86bad4b82701d71f259a187437b') in 0.020555 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_invites_dark.png
+  artifactKey: Guid(a734ad7414926404e90f8b5be37b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_invites_dark.png using Guid(a734ad7414926404e90f8b5be37b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12d652b7f5af4013a214d4822c3e40f') in 0.012772 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/UI/Stage/Item_ExpInfo.prefab
-  artifactKey: Guid(9a7a212d369945748985c33b2af9c065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Stage/Item_ExpInfo.prefab using Guid(9a7a212d369945748985c33b2af9c065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd38da523eecc69680429936032010cf') in 0.012114 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Image/Characters/Fighter.png
+  artifactKey: Guid(2bcf7e95378c9f04b8fbca337195b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Characters/Fighter.png using Guid(2bcf7e95378c9f04b8fbca337195b2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02851e9cd350d5df9b6a4db9191ff16') in 0.017607 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -19,10 +19,6 @@ public class StageManager : SingleTonMonoBehaviour<StageManager>
 
     [SerializeField]
     GameObject[] m_stageUis = new GameObject[(int)eStageType.Max];
-    [SerializeField]
-    GameObject[] m_characterIcon = new GameObject[4];
-    [SerializeField]
-    Text m_battleReadyAPText = null;
 
     string m_nextSceneInfo;
 
@@ -57,34 +53,7 @@ public class StageManager : SingleTonMonoBehaviour<StageManager>
         }
     }
 
-    public void SetAP(int ap)
-    {
-        m_battleReadyAPText.text = string.Format("{0}", ap);
-    }
-
     // 캐릭터 아이콘을 적용 시켜주는 구간
-    public void SetCharacterIcon()
-    {
-        if(LobbyDataManager.Instance == null)
-        {
-            return;
-        }
-
-        for(int i = 0; i < m_characterIcon.Length; i++)
-        {
-            var icon = LobbyDataManager.Instance.GetPartyIcon(i);
-            var Image = m_characterIcon[i].GetComponent<Image>();
-
-            if(icon == null)
-            {
-                Image.sprite = null; 
-            }
-            else
-            {
-                Image.sprite = icon;
-            }
-        }
-    }
 
     public void initailize()
     {
@@ -97,12 +66,26 @@ public class StageManager : SingleTonMonoBehaviour<StageManager>
 
             m_stageUis[i].gameObject.SetActive(false);
         }
-        for (int i = 0; i <m_characterIcon.Length; i++)
-        {
-            m_characterIcon[i] = Util.FindChildObject(GameObject.Find("Canvas"), string.Format("Image_Character_{0:00}", i +1));
-        }
     }
 
+    public T OpenPanel<T>(string name) where T : UnityEngine.Object
+    {
+        for(int i = 0; i < m_stageUis.Length; i++)
+        {
+            if (m_stageUis[i].name == name)
+            {
+                if (m_stageUis[i].activeSelf == false)
+                {
+                    m_stageUis[i].SetActive(true);
+                }
+                
+                T component = m_stageUis[i].GetComponent<T>();
+                return component;
+            }
+        }
+
+        return null;
+    }
     // Start is called before the first frame update
     protected override void OnStart()
     {
