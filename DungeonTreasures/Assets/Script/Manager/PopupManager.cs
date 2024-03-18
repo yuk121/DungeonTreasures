@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,9 +9,12 @@ public class PopupManager : DontDestory<PopupManager>
     GameObject m_okPopupObj = null;
     [SerializeField]
     GameObject m_okCancelPopup = null;
+    [SerializeField]
+    GameObject m_loadingInGamePopup = null;
 
     GameObject m_canvas = null;
     List<GameObject> m_popupList = new List<GameObject>();
+    public int PopupCount { get => m_popupList.Count; }
 
     int m_backCount = 0;
 
@@ -43,6 +47,26 @@ public class PopupManager : DontDestory<PopupManager>
         okCancelPopup.SetOKCancelPopup(notice, main, okbtndel, cancelbtndel, okbtn, cancelbtn);
         m_popupList.Add(obj);
         obj.name = string.Format("OKCancelPopup {0}", m_popupList.Count);
+    }
+
+    public void CreateLoadingInGamePopup(bool loadStart, Action<bool> callback)
+    {
+        var obj = Instantiate(m_loadingInGamePopup) as GameObject;
+
+        if (m_canvas != null)
+        {
+            obj.transform.SetParent(m_canvas.transform);
+        }
+
+        RectTransform rect = obj.GetComponent<RectTransform>();
+        rect.offsetMax = new Vector2(0, 0);
+        rect.offsetMin = new Vector2(0, 0);
+
+        var okCancelPopup = obj.GetComponent<Popup_LoadingInGame>();
+
+        okCancelPopup.SetLoadingEffect(loadStart, callback);
+        m_popupList.Add(obj);
+        obj.name = string.Format("Popup_LoadingInGame {0}", m_popupList.Count);
     }
 
     public void ClosePopup()

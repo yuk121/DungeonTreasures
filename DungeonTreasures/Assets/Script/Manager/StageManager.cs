@@ -89,6 +89,7 @@ public class StageManager : SingleTonMonoBehaviour<StageManager>
     // Start is called before the first frame update
     protected override void OnStart()
     {
+        PopupManager.Instance.SetPopupManager();
         initailize();
     }
 

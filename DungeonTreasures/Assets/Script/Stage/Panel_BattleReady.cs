@@ -96,7 +96,15 @@ public class Panel_BattleReady : MonoBehaviour
             {
                 if (StageManager.Instance.GetNextStageInfo() != string.Empty)
                 {
-                    LoadSceneManager.Instance.LoadGameScene(StageManager.Instance.GetNextStageInfo());
+                    PopupManager.Instance.CreateLoadingInGamePopup(true, (bool loadEnd) => {
+
+                        if (loadEnd == true)
+                        {
+                            PopupManager.Instance.ClosePopup();
+                            LoadSceneManager.Instance.LoadGameScene(StageManager.Instance.GetNextStageInfo());
+                        }
+                    });
+                    
                 }
             }
         }

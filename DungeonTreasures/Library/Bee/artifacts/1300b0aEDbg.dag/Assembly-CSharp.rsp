@@ -405,6 +405,7 @@
 "Assets/Script/Game/UI/MiniMap.cs"
 "Assets/Script/Game/UI/Popup/OKCancelPopup.cs"
 "Assets/Script/Game/UI/Popup/OKPopup.cs"
+"Assets/Script/Game/UI/Popup/Popup_LoadingInGame.cs"
 "Assets/Script/Game/UI/StageClear.cs"
 "Assets/Script/Lobby/Option.cs"
 "Assets/Script/Manager/BattleManager.cs"

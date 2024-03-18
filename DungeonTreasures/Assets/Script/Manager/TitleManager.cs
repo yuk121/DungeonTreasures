@@ -102,12 +102,7 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
                 m_titleAnim.ShowStartToTuch();
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                m_isPopOn = true;
-            }
-
-            if (m_isPopOn == false && m_titleAnim.TouchStart.activeSelf == true)
+            if (PopupManager.Instance.PopupCount == 0 && m_titleAnim.TouchStart.activeSelf == true)
             {
                 if (Input.GetMouseButtonDown(0))
                 {
