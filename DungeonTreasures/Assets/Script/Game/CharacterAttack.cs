@@ -787,7 +787,7 @@ public class CharacterAttack : MonoBehaviour
 
         if (m_skillTargetType == "SingleTarget")
         {
-            var arrow = EffectPool.Instance.Create(TableEffect.Instance.GetData("20").Prefab[0]);
+            var arrow = EffectPool.Instance.Create(TableEffect.Instance.GetData("19").Prefab[0]);
 
             arrow.transform.SetParent(dummy.transform);
             arrow.transform.localPosition = Vector3.zero;

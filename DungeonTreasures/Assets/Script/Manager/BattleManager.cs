@@ -288,7 +288,7 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
             {
                 if (m_turnIconDic.TryGetValue(m_characterOrderList[m_characterOrderList.Count - 1], out GameObject icon))
                 {
-                    icon.GetComponent<RectTransform>().localScale = new Vector3(0.7f, 0.7f, 1);
+                    icon.GetComponent<RectTransform>().localScale = new Vector3(0.4f, 0.4f, 1f);
                     icon.GetComponent<RectTransform>().SetAsLastSibling();
                     var Frame = icon.transform.GetChild(1).GetComponent<Image>();
                     Frame.color = new Color(255, 255, 255);
@@ -296,7 +296,7 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
                 if (m_turnIconDic.TryGetValue(m_characterOrderList[0], out GameObject NowIcon))  //현재 턴 캐릭
                 {
                     Debug.Log("#로그 : 현재 턴 아이콘 : " + m_characterOrderList[0]);
-                    NowIcon.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 1);
+                    NowIcon.GetComponent<RectTransform>().localScale = new Vector3(0.65f, 0.65f, 0.65f);
                     var Frame = NowIcon.transform.GetChild(1).GetComponent<Image>();
                     Frame.color = new Color(255, 255, 0);
                 }
@@ -316,14 +316,14 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
                     {
                         if (m_isBattle)
                         {
-                            icon.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 1);
+                            icon.GetComponent<RectTransform>().localScale = new Vector3(0.65f, 0.65f, 0.65f);
                             var Frame = icon.transform.GetChild(1).GetComponent<Image>();
                             Frame.color = new Color(255, 255, 0);
                         }
                     }
                     else
                     {
-                        icon.GetComponent<RectTransform>().localScale = new Vector3(0.7f, 0.7f, 1);
+                        icon.GetComponent<RectTransform>().localScale = new Vector3(0.4f, 0.4f, 1f);
                     }
 
                     m_isFirstTurn = false;
