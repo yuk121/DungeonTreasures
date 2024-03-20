@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class BuffInfo
@@ -802,7 +803,7 @@ public class CharacterAttack : MonoBehaviour
 
             if (monsters != null)
             {
-                var arrow = EffectPool.Instance.Create(TableEffect.Instance.GetData("20").Prefab[0]);
+                var arrow = EffectPool.Instance.Create(TableEffect.Instance.GetData("19").Prefab[0]);
 
                 arrow.transform.SetParent(dummy.transform);
                 arrow.transform.localPosition = Vector3.zero;
@@ -811,7 +812,7 @@ public class CharacterAttack : MonoBehaviour
                 arrow.GetComponent<Arrow>().SetArrow(dummy.transform.forward, this);
                 arrow.transform.SetParent(EffectPool.Instance.transform);
 
-                var arrowRain = EffectPool.Instance.Create(TableEffect.Instance.GetData("21").Prefab[0]);
+                var arrowRain = EffectPool.Instance.Create(TableEffect.Instance.GetData("20").Prefab[0]);
                 arrowRain.transform.position = point.transform.position;
                 arrowRain.transform.rotation = Quaternion.Euler(-90, 0, 0);
                 if(arrowRain != null)
@@ -846,7 +847,7 @@ public class CharacterAttack : MonoBehaviour
         switch (skillID)
         {
             case 10: // 마력탄
-                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("22").Prefab[0]);
+                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("21").Prefab[0]);
                 var dummy = Util.FindChildObject(gameObject, "Dummy_FirePos");
 
                 magic.transform.SetParent(dummy.transform);
@@ -858,7 +859,7 @@ public class CharacterAttack : MonoBehaviour
                 aEvent_SFX_MagicianSkill_01();
                 break;
             case 11: // 서릿발
-                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("23").Prefab[0]);
+                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("22").Prefab[0]);
 
                 magic.transform.position = target.position;
                 magic.transform.rotation = Quaternion.Euler(-90, 0, 0);
@@ -867,7 +868,7 @@ public class CharacterAttack : MonoBehaviour
                 aEvent_SFX_MagicianSkill_02();
                 break;
             case 12: // 낙뢰
-                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("24").Prefab[0]);
+                magic = EffectPool.Instance.Create(TableEffect.Instance.GetData("23").Prefab[0]);
 
                 magic.transform.position = point.transform.position;
                 magic.transform.rotation = Quaternion.identity;
@@ -1080,6 +1081,7 @@ public class CharacterAttack : MonoBehaviour
                                                                   , m_charatcterStatus.GetCharacterName(), m_charatcterStatus.GetCharacterId(), m_charatcterStatus.GetHp(), m_charatcterStatus.GetAtk(), 
                                                                   m_charatcterStatus.GetDef(), m_charatcterStatus.GetCharacterSpeed(), m_charatcterStatus.GetCriRate(), 
                                                                   m_charatcterStatus.GetHitRate(), m_charatcterStatus.GetDodgeRate(), m_charatcterStatus.GetType()));
+
         SetState(eMoveState.Idle);
     }
 

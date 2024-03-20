@@ -5,11 +5,6 @@ using UnityEngine;
 public class CharacterMove : MonoBehaviour
 {
     [SerializeField]
-    Display m_panelSwitch = null;
-    [SerializeField]
-    GamePad m_gamePad = null;
-
-    [SerializeField]
     int m_speed = 5;
     [SerializeField]    
     bool m_portalEnterCheck;
@@ -18,7 +13,7 @@ public class CharacterMove : MonoBehaviour
     AnimationController m_animController;
     CharacterController m_characterController;
     CharacterStatus m_characterStat;
-    BattleManager m_battleManager = null;
+   // BattleManager m_battleManager = null;
     MapManager m_mapManager;
     Vector3 m_dir;
 
@@ -37,7 +32,7 @@ public class CharacterMove : MonoBehaviour
             m_portalEnterCheck = true;
             GameObject spawnPoint = hit.gameObject;
             var portalInfo = spawnPoint.GetComponent<Portal>();
-            m_mapManager.SetEnemySpawnPoint(spawnPoint);                            // 맵 매니저에게 현재 닿은 포탈이 무엇인지 알려준다.
+            MapManager.Instance.SetEnemySpawnPoint(spawnPoint);                            // 맵 매니저에게 현재 닿은 포탈이 무엇인지 알려준다.
 
             if(portalInfo.GetPortalType() == ePortalType.Enemy || portalInfo.GetPortalType() == ePortalType.Boss)
             {
@@ -45,9 +40,10 @@ public class CharacterMove : MonoBehaviour
                 {
                     SoundManager.Instance.PlayUISound(SoundManager.eUISoundAudioClip.Transport);
                 }
-                m_panelSwitch.m_callEvent = m_battleManager.SetBattleManager;
-                m_panelSwitch.m_endCallEvent = m_battleManager.AfterAnimEndProcess;
-                m_panelSwitch.SetSwitchPanel();
+                Debug.Log("CharacterMove");
+                MapManager.Instance.PanelSwitch.m_callEvent = BattleManager.Instance.SetBattleManager;
+                MapManager.Instance.PanelSwitch.m_endCallEvent = BattleManager.Instance.AfterAnimEndProcess;
+                MapManager.Instance.PanelSwitch.SetSwitchPanel();
             }
             else if(portalInfo.GetPortalType() == ePortalType.Buff)
             {
@@ -55,8 +51,8 @@ public class CharacterMove : MonoBehaviour
                 // 버프 포탈이므로 꺼준다.
                 spawnPoint.SetActive(false);
                 // 버프 구현
-                int buff = m_mapManager.RandomBuff();
-                List<GameObject> tempPlayers = m_battleManager.GetPlayers();
+                int buff = MapManager.Instance.RandomBuff();
+                List<GameObject> tempPlayers = BattleManager.Instance.GetPlayers();
 
                 // 버프를 적용하는 부분
                 if(buff == 0)           // 쿨타임 초기화
@@ -91,23 +87,23 @@ public class CharacterMove : MonoBehaviour
                 switch (buff)
                 {
                     case 0:                                                     // ReduceCoolTime     팝업창
-                        m_mapManager.ShowInfo(string.Format("모든 캐릭터의 스킬 쿨타임 초기화."));
+                        MapManager.Instance.ShowInfo(string.Format("모든 캐릭터의 스킬 쿨타임 초기화."));
                         break;
                     case 1:                                                     // PowerUp                  아이콘
                         //m_mapManager.ShowBuffIcon(MapManager.ePartyBuff.PowerUp);
-                        m_mapManager.ShowInfo(string.Format("모든 캐릭터의 공격력 10% 증가"));
+                        MapManager.Instance.ShowInfo(string.Format("모든 캐릭터의 공격력 10% 증가"));
                         break;
                     case 2:                                                     // DefenceUp               아이콘
-                       // m_mapManager.ShowBuffIcon(MapManager.ePartyBuff.DefenceUp);
-                        m_mapManager.ShowInfo(string.Format("모든 캐릭터의 방어력 10% 증가"));
+                                                                                // m_mapManager.ShowBuffIcon(MapManager.ePartyBuff.DefenceUp);
+                        MapManager.Instance.ShowInfo(string.Format("모든 캐릭터의 방어력 10% 증가"));
                         break;
                     case 3:                                                     // Heal
-                        m_mapManager.ShowInfo(string.Format("모든 캐릭터의 Hp 10% 회복"));
+                        MapManager.Instance.ShowInfo(string.Format("모든 캐릭터의 Hp 10% 회복"));
                         break;
                 }
                                  
                 spawnPoint.GetComponent<Portal>().SetClear();
-                m_mapManager.ShowPortal();
+                MapManager.Instance.ShowPortal();
             }
         }
     }
@@ -186,25 +182,24 @@ public class CharacterMove : MonoBehaviour
                 this.enabled = false;
             else
             {
-                m_battleManager = GameObject.Find("BattleManager").GetComponent<BattleManager>();                                          // 자식의 게임 오브젝트를 가져온다
-                m_mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
+                //m_battleManager = GameObject.Find("BattleManager").GetComponent<BattleManager>();                                          // 자식의 게임 오브젝트를 가져온다
+                //m_mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
                 m_animController = gameObject.GetComponent<AnimationController>();
                 m_characterController = gameObject.GetComponent<CharacterController>();
                 m_characterStat = gameObject.GetComponent<CharacterStatus>();
-                m_portalEnterCheck = false;
-
-                m_panelSwitch = GameObject.Find("Panel_Switch").GetComponent<Display>();
-                m_gamePad = GameObject.Find("UI Canvas").transform.GetChild(0).GetChild(1).gameObject.GetComponent<GamePad>();
-
-                gameObject.transform.position = Vector3.zero;
-
             }
         }
     }
            
     private void Start()
     {
+    }
 
+    public void Set()
+    {
+        m_portalEnterCheck = false;
+
+        gameObject.transform.position = Vector3.zero;
     }
 
     // Update is called once per frame
@@ -212,8 +207,9 @@ public class CharacterMove : MonoBehaviour
     {
         if (gameObject.activeSelf == true)
         {
-            m_dir = new Vector3(m_gamePad.GetAxis().x, 0f, m_gamePad.GetAxis().y);
-            float dist = m_gamePad.GetDist();
+            GamePad gamePad = MapManager.Instance.GamePad;
+            m_dir = new Vector3(gamePad.GetAxis().x, 0f, gamePad.GetAxis().y);
+            float dist = gamePad.GetDist();
 
             if (m_dir != Vector3.zero)
             {

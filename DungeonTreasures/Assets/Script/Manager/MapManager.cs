@@ -27,6 +27,12 @@ public class MapManager : SingleTonMonoBehaviour<MapManager>
     GameObject m_buffObj = null;
     [SerializeField]
     GameObject m_panelInfomationObj = null;
+    [SerializeField]
+    Display m_panelSwitch = null;
+    public Display PanelSwitch { get { return m_panelSwitch; } }
+    [SerializeField]
+    GamePad m_gamePad = null;
+    public GamePad GamePad { get { return m_gamePad; } }
 
     MiniMap m_miniMap;
     GameObject m_portal = null;
@@ -203,6 +209,7 @@ public class MapManager : SingleTonMonoBehaviour<MapManager>
         moveCharacter.transform.localPosition = Vector3.zero;
         moveCharacter.transform.localScale = Vector3.one;
         moveCharacter.transform.localRotation = Quaternion.identity;
+        moveCharacter.GetComponent<CharacterMove>().Set();
 
         m_moveCharacterObj.SetActive(false);
     }

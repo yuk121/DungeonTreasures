@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
+using static ImageManager;
 
 public class BattleManager : SingleTonMonoBehaviour<BattleManager>
 {
@@ -1168,9 +1170,9 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
         {
             var path = string.Format("Character/BattleCharacter/{0}", LobbyDataManager.Instance.GetCharacterName(i));
             var prefab = Resources.Load(path);
-            var character = Instantiate(prefab) as GameObject;
+            var character = Instantiate(prefab as GameObject, m_playerTeamObj.transform.GetChild(i).transform, false);
 
-            character.transform.SetParent(m_playerTeamObj.transform.GetChild(i).transform);
+            //character.transform.SetParent(m_playerTeamObj.transform.GetChild(i).transform);
             character.transform.localPosition = Vector3.zero;
             character.transform.localScale = Vector3.one;
             character.transform.localRotation = Quaternion.identity;
@@ -1179,14 +1181,6 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
         m_isSettingEnd = true;    
     }
 
-    IEnumerator WaitForSetting()
-    {
-        SettingCharacters();
-        while(m_isSettingEnd)
-        {
-            yield return null;
-        }
-    }
     void InitProcess()
     {
         m_mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
@@ -1214,17 +1208,23 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
     // Start is called before the first frame update
     protected override void OnAwake()
     {
+        base.OnAwake();
+
         InitProcess();
-        // 캐릭터 세팅
-        StartCoroutine("WaitForSetting");
     }
 
     protected override void OnStart()
     {
+        base.OnStart();
+
         m_preventTouchObj.SetActive(false);
+
         if (SoundManager.Instance != null)
             SoundManager.Instance.PlayBGM(LoadSceneManager.eScene.Game_Castle_01);
+
+        SettingCharacters();
         SetTurnIcon();
+
         m_isFirstTurn = true;
     }
 

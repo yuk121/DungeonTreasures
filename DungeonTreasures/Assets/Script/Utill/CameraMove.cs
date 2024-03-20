@@ -38,7 +38,6 @@ public class CameraMove : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        m_mapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
         m_prevPos = transform.position;
         this.enabled = false;
     }
