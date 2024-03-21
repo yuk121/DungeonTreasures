@@ -8,7 +8,8 @@ public enum eMonsterDamageType
     None,
     Normal,
     Critical,
-    Miss
+    Miss,
+    Block
 }
 public enum eMonsterTpye
 {
@@ -360,7 +361,10 @@ public class MonsterController : MonoBehaviour
             }
 
             // 데미지 최소 ,최대 대미지
-            m_damage = m_damage + Random.Range(0, 31);
+            m_damage = Mathf.Max(0, m_damage + Random.Range(0, 31));
+
+            if (m_damage <= 0)
+                damageType = eMonsterDamageType.Block;
         }
         else
         {
@@ -552,7 +556,7 @@ public class MonsterController : MonoBehaviour
         m_skillTargetType = m_monsterStatus.GetTargetType(skillIndex);
 
         // 스킬 타입별로 몬스터 전체에게 이펙트를 넣을지 말지 선택하는 구간
-        if (m_skillTargetType == ".SingleTarget")
+        if (m_skillTargetType == "SingleTarget")
         {
             var target = m_battleManager.GetSelectPlayer();
             var pos = Util.FindChildObject(target, "Dummy_Hit").transform.position;

@@ -54,6 +54,11 @@ public class FloatText : MonoBehaviour
             m_text.text = string.Format("-{0}", damage);
             m_animator.SetTrigger("Critical");
         }
+        else if(type == eMonsterDamageType.Block)
+        {
+            m_text.text = string.Format("Block", new Color(0f,190/255f, 1f, 1f));
+            m_animator.SetTrigger("Normal");
+        }
         else
         {
             m_text.text = string.Format("Miss", Color.yellow);

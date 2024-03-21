@@ -219,7 +219,7 @@ public class CharacterMove : MonoBehaviour
                 }
 
                 transform.forward = m_dir;
-                m_characterController.SimpleMove(m_dir * dist * m_speed * Time.deltaTime);            
+                m_characterController.SimpleMove(m_dir * dist * m_speed);            
             }
             else
             {
