@@ -177,7 +177,7 @@ public class MonsterController : MonoBehaviour
             if (m_monsterType == eMonsterTpye.Boss)
             {
                 var hpText = m_monsterHpBar.GetComponentInChildren<Text>();
-                hpText.text = string.Format("{0} / {1}", m_monsterStatus.GetHp(), m_monsterStatus.GetMaxHp());
+                hpText.text = string.Format("{0} / {1}", Mathf.Max(0,m_monsterStatus.GetHp()), m_monsterStatus.GetMaxHp());
             }
             //Debug.Log(string.Format("{0}의 남은 Hp : {1}", gameObject.transform.parent.name, m_monsterStatus.GetHp()));
         }
