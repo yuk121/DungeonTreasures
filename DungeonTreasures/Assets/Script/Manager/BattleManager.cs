@@ -312,7 +312,7 @@ public class BattleManager : SingleTonMonoBehaviour<BattleManager>
                 {
                     icon.GetComponent<RectTransform>().transform.SetParent(root.transform);
                     icon.GetComponent<RectTransform>().transform.localPosition = new Vector3(0, 0, 0);
-                    icon.GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, -180f);
+                    icon.GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, 0);
 
                     if (i == 0)
                     {

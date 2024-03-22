@@ -12,6 +12,9 @@ public class Display : MonoBehaviour
         FadeIn
     }
 
+    [SerializeField]
+    Text m_infoText = null;
+
     // 애니메이션 중간에 작업할 메소드를 넣어주는 대리자
     public delegate void CallEvent();
     public CallEvent m_callEvent = null;
@@ -47,9 +50,12 @@ public class Display : MonoBehaviour
     public void SetInfomation(string text)
     {
         gameObject.SetActive(true);
-        Text infoText = GetComponentInChildren<Text>();
-        infoText.text = text;
-        m_animator.SetTrigger("Infomation");
+
+        if(m_infoText != null)
+        {
+            m_infoText.text = text;
+            m_animator.SetTrigger("Infomation");
+        }
     }
 
     public bool CheckSwitch()

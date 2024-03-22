@@ -159,7 +159,7 @@ public class MapManager : SingleTonMonoBehaviour<MapManager>
         {
             SoundManager.Instance.PlayUISound(SoundManager.eUISoundAudioClip.BuffWindow);
         }
-        var window = m_panelInfomationObj.transform.GetChild(0).GetComponent<Display>();
+        var window = m_panelInfomationObj.GetComponent<Display>();
         window.SetInfomation(text);
 
         m_moveCharacterObj.GetComponentInChildren<CharacterMove>().OutPortal();
