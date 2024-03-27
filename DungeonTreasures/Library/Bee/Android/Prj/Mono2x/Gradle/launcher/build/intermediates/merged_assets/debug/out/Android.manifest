@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 846666774
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: datatable
+      Dependencies: {}

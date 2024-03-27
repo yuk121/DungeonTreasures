@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game_Castle_01.unity
     guid: 76d5743023068af489e085c3a7378335
+  - enabled: 0
+    path: Assets/SimpleGoogleSignIn/Example.unity
+    guid: ec8d31ae88495cc418fc0fa28b40d898
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: bcd189b2e24d433408e2616a00e45035,
       type: 2}

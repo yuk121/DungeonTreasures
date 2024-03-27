@@ -23,6 +23,11 @@ public class LoadSceneManager : DontDestory<LoadSceneManager>
         SceneManager.LoadScene(GameSceneName);
     }
 
+    public void LoadTitleScene()
+    {
+        SceneManager.LoadScene("Title");
+    }
+
     public void LoadLobbyScene()
     {
         SceneManager.LoadScene("Lobby");

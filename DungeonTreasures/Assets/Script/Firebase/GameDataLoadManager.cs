@@ -31,7 +31,8 @@ public class GameDataLoadManager : DontDestory<GameDataLoadManager>
 #if UNITY_EDITOR
         LoadFromLocal(callback);
 #elif UNITY_ANDROID
-        LoadFromFBStroage(callback)
+        LoadFromLocal(callback);
+        //LoadFromFBStroage(callback);
 #endif
     }
 

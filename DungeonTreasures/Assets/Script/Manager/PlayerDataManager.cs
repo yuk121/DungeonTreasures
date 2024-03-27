@@ -44,10 +44,6 @@ public class PlayerDataManager : DontDestory<PlayerDataManager>
         }
     }
 
-    public PlayerData GetPlayerData()
-    {
-        return m_playerData;
-    }
 
     public void SetBGMVolume(int volume)
     {
@@ -178,9 +174,13 @@ public class PlayerDataManager : DontDestory<PlayerDataManager>
         m_playerData = new PlayerData();
     }
 
-#if UNITY_EDITOR
-    public void SavePlayerData()
+    public void SavePlayerData(PlayerData playerData = null)
     {
+        if(playerData != null) 
+        {
+            m_playerData = playerData;
+        }
+
         string jsonData = JsonMapper.ToJson(m_playerData);
         string path = $"{Application.persistentDataPath}/SaveData.json";
         File.WriteAllText(path, jsonData);
@@ -200,7 +200,6 @@ public class PlayerDataManager : DontDestory<PlayerDataManager>
             }
         }
     }
-#endif
 
     //#if (UNITY_ANDROID || UNITY_IPHONE)
     //public void APKSavePlayerData()

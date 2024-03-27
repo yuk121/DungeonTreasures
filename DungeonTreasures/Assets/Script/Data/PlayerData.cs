@@ -21,11 +21,18 @@ public class PlayerData
 
     public string m_lastAccessTime;
     public string m_firstAccessTime;
+    public string m_googleAccessToken;
+    public string m_googleIdToken;
 
     /// <summary>
     /// PlayerData 생성자
     /// </summary>
     public PlayerData()
+    {
+        
+    }
+
+    public void BasicSetting()
     {
         m_playerOwnedGold = Setting.m_basicGold;
         m_playerActivePoint = Setting.m_basicAtctivePoint;
@@ -39,13 +46,13 @@ public class PlayerData
         m_lastAccessTime = Setting.m_lastAccessTime;
 
         // 처음에 가지고 있는캐릭터
-        for(int i =0; i < 4; i ++)
+        for (int i = 0; i < 4; i++)
         {
             m_playerOwnedCharacters[i] = true;
         }
 
         // 던전 클리어 정보
-        for(int i = 0; i < m_playerClearDungeons.Length; i++)
+        for (int i = 0; i < m_playerClearDungeons.Length; i++)
         {
             m_playerClearDungeons[i] = false;
         }
