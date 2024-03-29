@@ -201,6 +201,20 @@ public class PlayerDataManager : DontDestory<PlayerDataManager>
         }
     }
 
+    private void OnApplicationPause(bool pause)
+    {
+        if(pause)
+        {
+            SavePlayerData();
+        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        Debug.Log("게임 종료전 데이터 저장");
+        SavePlayerData();
+    }
+
     //#if (UNITY_ANDROID || UNITY_IPHONE)
     //public void APKSavePlayerData()
     //{

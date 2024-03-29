@@ -86,6 +86,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_launcher
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -236,14 +237,18 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string play_games_sdk_version
 string project_id
 string status_bar_notification_info_overflow
+style AppBaseTheme
+style AppTheme
 style BaseUnityTheme
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
+style Theme_Games_Transparent
 style UnityThemeSelector
 style UnityThemeSelector_Translucent
 style Widget_Compat_NotificationActionContainer

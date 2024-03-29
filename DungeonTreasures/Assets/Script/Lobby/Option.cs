@@ -33,22 +33,19 @@ public class Option : MonoBehaviour
             m_bgmOptionImage.transform.GetChild(0).gameObject.SetActive(false);
         }
 
-#if UNITY_EDITOR
-        ////상태 저장
-        //if (PlayerDataManager.Instance != null)
-        //{
-        //    int volume = (int)(m_bgmAduio.volume * 100);
-        //    PlayerDataManager.Instance.SetBGMVolume(volume);
-        //    PlayerDataManager.Instance.SavePlayerData();
-        //}
-#endif
-
         if (PlayerDataManager.Instance != null)
         {
             int volume = (int)(m_bgmAduio.volume * 100);
             PlayerDataManager.Instance.SetBGMVolume(volume);
-            //FirebaseManager.Instance.SaveUserInfo(FirebaseManager.Instance.GetCurrentUserUID());
+            PlayerDataManager.Instance.SavePlayerData();
         }
+
+        //if (PlayerDataManager.Instance != null)
+        //{
+        //    int volume = (int)(m_bgmAduio.volume * 100);
+        //    PlayerDataManager.Instance.SetBGMVolume(volume);
+        //    //FirebaseManager.Instance.SaveUserInfo(FirebaseManager.Instance.GetCurrentUserUID());
+        //}
     }
 
     void SFXSlider()
@@ -65,21 +62,19 @@ public class Option : MonoBehaviour
         }
 
         // 상태 저장
-#if UNITY_EDITOR
-        //if (PlayerDataManager.Instance != null)
-        //{
-        //    int volume = (int)(m_sfxAudio.volume * 100);
-        //    PlayerDataManager.Instance.SetSFXVolume(volume);
-        //    PlayerDataManager.Instance.SavePlayerData();
-        //}
-#endif
-
         if (PlayerDataManager.Instance != null)
         {
             int volume = (int)(m_sfxAudio.volume * 100);
             PlayerDataManager.Instance.SetSFXVolume(volume);
-            //FirebaseManager.Instance.SaveUserInfo(FirebaseManager.Instance.GetCurrentUserUID());
+            PlayerDataManager.Instance.SavePlayerData();
         }
+
+        //if (PlayerDataManager.Instance != null)
+        //{
+        //    int volume = (int)(m_sfxAudio.volume * 100);
+        //    PlayerDataManager.Instance.SetSFXVolume(volume);
+        //    //FirebaseManager.Instance.SaveUserInfo(FirebaseManager.Instance.GetCurrentUserUID());
+        //}
 
     }
 

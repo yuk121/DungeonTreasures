@@ -12,6 +12,10 @@ MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\0dudd\.gradle\ca
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a01119b667f1ab8d74e7b4ea4c10ec9a\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\64c67952d96c0e89756ad088ff6670c1\jetified-firebase-appcheck-17.1.0\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\b1c2161bfa62ea3159c02c50478a9565\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\1e9b2ae161ac9eaa84b9dd8208c6b52c\jetified-play-services-drive-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\59583d6d84a9c660196f51faf88777d4\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-app-unity:11.7.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\5d715ae1173e9b4f389f87c841b0bb19\jetified-firebase-app-unity-11.7.0\AndroidManifest.xml:3:1-8:12
@@ -23,6 +27,7 @@ MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\0dudd\.
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3101bc0a91bd297afaddcdd6adccba61\jetified-firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-storage-unity:11.7.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a421dab77cba315abab6316ff58d4ee4\jetified-firebase-storage-unity-11.7.0\AndroidManifest.xml:3:1-8:12
 MERGED from [com.google.signin:google-signin-support:1.0.4] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e0120e30ebea8f31504851feeaf69934\jetified-google-signin-support-1.0.4\AndroidManifest.xml:17:1-27:12
+MERGED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:6:1-32:12
 MERGED from [:unityLibrary:FirebaseApp.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\FirebaseApp.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a20082418ea52e52aa2a9d3c185a23d6\jetified-recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\47c0f1c2e055f5cbaf59f266f0c4db01\jetified-integrity-1.2.0\AndroidManifest.xml:2:1-7:12
@@ -108,6 +113,14 @@ MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradl
 MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\64c67952d96c0e89756ad088ff6670c1\jetified-firebase-appcheck-17.1.0\AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\b1c2161bfa62ea3159c02c50478a9565\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\b1c2161bfa62ea3159c02c50478a9565\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:9:5-19:19
+MERGED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:9:5-19:19
+MERGED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\1e9b2ae161ac9eaa84b9dd8208c6b52c\jetified-play-services-drive-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\1e9b2ae161ac9eaa84b9dd8208c6b52c\jetified-play-services-drive-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\59583d6d84a9c660196f51faf88777d4\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
@@ -124,6 +137,8 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3101bc0a91bd297afaddcdd6adccba61\jetified-firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.signin:google-signin-support:1.0.4] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e0120e30ebea8f31504851feeaf69934\jetified-google-signin-support-1.0.4\AndroidManifest.xml:25:5-20
 MERGED from [com.google.signin:google-signin-support:1.0.4] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e0120e30ebea8f31504851feeaf69934\jetified-google-signin-support-1.0.4\AndroidManifest.xml:25:5-20
+MERGED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-30:19
+MERGED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-30:19
 MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\47c0f1c2e055f5cbaf59f266f0c4db01\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\47c0f1c2e055f5cbaf59f266f0c4db01\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a2f8dee6b86abbd9ecfa3052d7a74a55\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:28:5-44:19
@@ -178,6 +193,14 @@ MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradl
 MERGED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\64c67952d96c0e89756ad088ff6670c1\jetified-firebase-appcheck-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\b1c2161bfa62ea3159c02c50478a9565\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\b1c2161bfa62ea3159c02c50478a9565\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:7:5-44
+MERGED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\1e9b2ae161ac9eaa84b9dd8208c6b52c\jetified-play-services-drive-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\1e9b2ae161ac9eaa84b9dd8208c6b52c\jetified-play-services-drive-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\59583d6d84a9c660196f51faf88777d4\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:5:5-44
@@ -200,6 +223,8 @@ MERGED from [com.google.firebase:firebase-storage-unity:11.7.0] C:\Users\0dudd\.
 MERGED from [com.google.firebase:firebase-storage-unity:11.7.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a421dab77cba315abab6316ff58d4ee4\jetified-firebase-storage-unity-11.7.0\AndroidManifest.xml:7:3-41
 MERGED from [com.google.signin:google-signin-support:1.0.4] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e0120e30ebea8f31504851feeaf69934\jetified-google-signin-support-1.0.4\AndroidManifest.xml:21:5-23:41
 MERGED from [com.google.signin:google-signin-support:1.0.4] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e0120e30ebea8f31504851feeaf69934\jetified-google-signin-support-1.0.4\AndroidManifest.xml:21:5-23:41
+MERGED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:40
+MERGED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:40
 MERGED from [:unityLibrary:FirebaseApp.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\FirebaseApp.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:40
 MERGED from [:unityLibrary:FirebaseApp.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\FirebaseApp.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:40
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a20082418ea52e52aa2a9d3c185a23d6\jetified-recaptcha-18.4.0\AndroidManifest.xml:5:5-44
@@ -324,6 +349,8 @@ MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\0dudd\.gradle
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\c2b12ecef14d93089df9d8e2192921b7\jetified-firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\8596a5957fb178c91e862c29b73115dc\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\8596a5957fb178c91e862c29b73115dc\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:18.0.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\f1636d4ee2968c1ca82c1ebb9114b3a1\jetified-play-services-nearby-18.0.2\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\ed3a49a6baab5d780d3e657791554ea9\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\ed3a49a6baab5d780d3e657791554ea9\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
@@ -547,6 +574,46 @@ ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle
 		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\64c67952d96c0e89756ad088ff6670c1\jetified-firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-appcheck:17.1.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\64c67952d96c0e89756ad088ff6670c1\jetified-firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+activity#com.google.games.bridge.GenericResolutionActivity
+ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:13:13-54
+	android:exported
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:11:13-77
+meta-data#instantapps.clients.allowed
+ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:15:13-17:40
+	android:value
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:17:17-37
+	android:name
+		ADDED from [com.google.games:gpgs-plugin-support:0.11.01] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3016a60a1cc074a0d98e67eab833e079\jetified-gpgs-plugin-support-0.11.01\AndroidManifest.xml:16:17-59
+provider#com.google.android.gms.games.provider.PlayGamesInitProvider
+ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:8:9-12:38
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:10:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:12:13-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:9:13-87
+activity#com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity
+ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:14:9-17:62
+	android:exported
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:17:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:15:13-103
+meta-data#com.google.android.gms.games.version
+ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:19:9-21:62
+	android:value
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:21:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-games-v2:17.0.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\e313f7521ac8c39db6b077a4c34757e8\jetified-play-services-games-v2-17.0.0\AndroidManifest.xml:20:13-64
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.3.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a28ed9ca72ed4afd8dc069284ee5097a\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -623,6 +690,24 @@ ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\c
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3101bc0a91bd297afaddcdd6adccba61\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\3101bc0a91bd297afaddcdd6adccba61\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-20:49
+	android:value
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-46
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-63
+meta-data#com.google.android.gms.games.unityVersion
+ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:44
+	android:value
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-41
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-69
+activity#com.google.games.bridge.NativeBridgeActivity
+ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-29:86
+	android:theme
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from [:unityLibrary:GooglePlayGamesManifest.androidlib] C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-72
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
 ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\0dudd\.gradle\caches\transforms-2\files-2.1\a20082418ea52e52aa2a9d3c185a23d6\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
 	android:name

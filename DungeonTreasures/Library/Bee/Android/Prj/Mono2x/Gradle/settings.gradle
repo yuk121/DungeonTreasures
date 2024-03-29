@@ -1,2 +1,3 @@
 include ':launcher', ':unityLibrary'
+include 'unityLibrary:GooglePlayGamesManifest.androidlib'
 include 'unityLibrary:FirebaseApp.androidlib'

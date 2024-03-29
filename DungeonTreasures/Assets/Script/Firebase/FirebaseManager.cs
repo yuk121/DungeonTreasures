@@ -7,7 +7,7 @@ using Firebase.Auth;
 using Firebase;
 using Google;
 using System.IO;
-
+using Firebase.Extensions;
 
 public class FirebaseManager : DontDestory<FirebaseManager>
 {
@@ -15,42 +15,32 @@ public class FirebaseManager : DontDestory<FirebaseManager>
     string webClientId = "<클라이언트 아이디 입력>";
 
     FirebaseAuth m_auth;
+    Credential m_credential;
 
     /// <summary>
     /// Sign In
     /// </summary>
     /// 
 
-    public void FirebaseAuthStart(string accessToken, Action callbackSuccess, Action callbackFailed)
-    {
-        //m_configuration = new GoogleSignInConfiguration { WebClientId = webClientId, RequestEmail = true, RequestIdToken = true };
-
-        //FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://dungeon-treasures.firebaseio.com/");
-        //m_reference = FirebaseDatabase.DefaultInstance.RootReference;
-        m_auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
-        FirebaseAuth(accessToken, callbackSuccess, callbackFailed);
-    }
-
     #region FireBase Auth
-    private void FirebaseAuth(string accessToken, Action callbackSuccess, Action callbackFailed)
+    public void FirebaseAuth(string authCode, Action callbackSuccess, Action callbackFailed)
     {
-        Firebase.Auth.Credential credential = Firebase.Auth.GoogleAuthProvider.GetCredential(null, accessToken);
-
-        m_auth.SignInAndRetrieveDataWithCredentialAsync(credential).ContinueWith(task => {
+        m_auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+        m_credential = PlayGamesAuthProvider.GetCredential(authCode);
+        m_auth.SignInAndRetrieveDataWithCredentialAsync(m_credential).ContinueWithOnMainThread((task) =>
+        {           
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInAndRetrieveDataWithCredentialAsync was canceled.");
                 callbackFailed.Invoke();
-                return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInAndRetrieveDataWithCredentialAsync encountered an error: " + task.Exception);
                 callbackFailed.Invoke();
-                return;
             }
 
-            Firebase.Auth.AuthResult result = task.Result;
+            Debug.Log("Firebase 인증 완료");
             callbackSuccess.Invoke();
         });
     }

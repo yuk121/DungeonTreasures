@@ -376,12 +376,19 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs"
+"Assets/GooglePlayGames/Editor/GPGSDocsUI.cs"
+"Assets/GooglePlayGames/Editor/GPGSPostBuild.cs"
+"Assets/GooglePlayGames/Editor/GPGSProjectSettings.cs"
+"Assets/GooglePlayGames/Editor/GPGSStrings.cs"
+"Assets/GooglePlayGames/Editor/GPGSUpgrader.cs"
+"Assets/GooglePlayGames/Editor/GPGSUtil.cs"
+"Assets/GooglePlayGames/Editor/NearbyConnectionUI.cs"
 "Assets/Particlecollection_Free samples/Plugins/Effect/Editor/EffectControllerInspector.cs"
 "Assets/Particlecollection_Free samples/Plugins/Effect/Editor/EffectToolBar.cs"
 "Assets/Particlecollection_Free samples/Plugins/Effect/Editor/RenderEffectInspector.cs"
 "Assets/Particlecollection_Free samples/Plugins/Effect/Editor/ShaderCustomEditor/ShaderMaterialsEditor.cs"
 "Assets/Particlecollection_Free samples/Plugins/Effect/Editor/XUIUtils.cs"
-"Assets/SimpleGoogleSignIn/Scripts/Editor/SettingsEditor.cs"
 -langversion:9.0
 
 /deterministic

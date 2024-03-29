@@ -15,4 +15,5 @@ public class Setting : DontDestory<Setting>
     public static bool m_sfxUnmute = true;
     public static string m_firstAccessTime = string.Empty;
     public static string m_lastAccessTime = string.Empty;
+    public static string m_lastAccessPlatform = "None";
 }

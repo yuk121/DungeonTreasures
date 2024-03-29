@@ -4,16 +4,27 @@ using System;
 using UnityEngine;
 using Google;
 using UnityEngine.UI;
-using Assets.SimpleGoogleSignIn.Scripts;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi;
+using UnityEngine.SocialPlatforms;
+using System.Threading.Tasks;
 
 public class TitleManager : SingleTonMonoBehaviour<TitleManager>
 {
+    enum ePlatform
+    {
+        None,
+        Google,
+        Facebook,
+        iOS,
+    }
+
     [SerializeField]
     TitleAnimationController m_titleAnim = null;
     [SerializeField]
     Button m_signUpBtn =null;
 
-    GoogleAuth m_googleAuth;
+    //GoogleAuth m_googleAuth;
 
     bool m_isLogin = false;
 
@@ -30,6 +41,7 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
             }
         }
     }
+    
 
     protected override void OnAwake()
     {
@@ -76,17 +88,24 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
 #if UNITY_EDITOR
         m_isLogin = true;
 #elif UNITY_ANDROID
-        // AccessToken 존재 확인
-        if(playerData.m_googleAccessToken == null)
+
+        Debug.Log($"Player Last Access Platform : {playerData.m_lastAccessPlatform}");
+        switch(Enum.Parse<ePlatform>(playerData.m_lastAccessPlatform))
         {
-            Debug.Log("AccessToken가 유효하지 않음");
-            m_signUpBtn.gameObject.SetActive(true);
-        }
-        else
-        {
-            // 파이어베이스 인증시작
-            Debug.Log("AccessToken 유효, Firebase Auth 시작");            
-            FirebaseManager.Instance.FirebaseAuthStart(playerData.m_googleAccessToken, AuthSuccess, AuthFailed);
+            case ePlatform.None:
+                // 로그인 버튼 활성화
+                m_signUpBtn.gameObject.SetActive(true);
+                break;
+
+            case ePlatform.Google:
+                Login_Google();
+                break;
+
+            case ePlatform.iOS:
+                break;
+
+            case ePlatform.Facebook:
+                break;
         }
 #endif
     }
@@ -114,57 +133,59 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
 
     private void OnClick_SignUp()
     {
+        Login_Google();
+    }
+    
+    private void Login_Google()
+    {
+        PlayGamesPlatform.Activate();
         // 구글 로그인
-        m_googleAuth = new GoogleAuth();
-        //m_googleAuth.TryResume(OnSignIn, OnGetAccessToken);
-
-        m_googleAuth.GetAccessToken(OnGetAccessToken);
+        Social.localUser.Authenticate(ProcessAuthentication);
     }
 
-    public void GetAccessToken()
+    internal void ProcessAuthentication(bool success)
     {
-        m_googleAuth.GetAccessToken(OnGetAccessToken);
-    }
-
-    private void OnSignIn(bool success, string error, UserInfo userInfo)
-    {
-        if (success == false)
-            return;
-    }
-
-    private void OnGetAccessToken(bool success, string error, TokenResponse tokenResponse)
-    {
-        if (success == false)
+        if (success)
         {
-            PopupManager.Instance.CreateOKCancelPopup("로그인 실패", "", "다시 시작합니다.", () => 
+            // Continue with Play Games Services
+            Debug.Log("구글 인증 완료");
+            var authcode = PlayGamesPlatform.Instance.GetServerAuthCode();
+           
+            Debug.Log("Firebase 인증 시작");
+            // 파이어베이스 연동 시작
+            FirebaseManager.Instance.FirebaseAuth(authcode, AuthSuccess, AuthFailed);
+        }
+        else
+        {
+            // Disable your integration with Play Games Services or show a login button
+            // to ask users to sign-in. Clicking it should call
+            // PlayGamesPlatform.Instance.ManuallyAuthenticate(ProcessAuthentication).
+            PopupManager.Instance.CreateOKCancelPopup("로그인 실패", "", "다시 시작합니다.", () =>
             {
                 // 재시작 
                 LoadSceneManager.Instance.LoadTitleScene();
-            }, 
-            () => 
+            },
+            () =>
             {
                 // 어플 종료
                 PlayerDataManager.Instance.SavePlayerData();
                 Application.Quit();
             });
         }
-
-        Debug.Log("구글 인증 완료");
-        PlayerData playerData = PlayerDataManager.Instance.PlayerData;
-        playerData.m_googleAccessToken = tokenResponse.AccessToken;
-        playerData.m_googleIdToken = tokenResponse.IdToken;
-
-        // 파이어베이스 연동 시작
-        FirebaseManager.Instance.FirebaseAuthStart(tokenResponse.AccessToken, AuthSuccess, AuthFailed);
     }
 
     private void AuthSuccess()
     {
         m_isLogin = true;
+        m_signUpBtn.gameObject.SetActive(false);
+        PlayerDataManager.Instance.PlayerData.m_lastAccessPlatform = ePlatform.Google.ToString();
     }
 
     private void AuthFailed()
     {
+        // 구글 인증 로그아웃
+        PlayGamesPlatform.Instance.SignOut();
+
         PopupManager.Instance.CreateOKCancelPopup("유저 인증 실패", "", "다시 시작합니다.", () =>
         {
             // 재시작 

@@ -21,8 +21,7 @@ public class PlayerData
 
     public string m_lastAccessTime;
     public string m_firstAccessTime;
-    public string m_googleAccessToken;
-    public string m_googleIdToken;
+    public string m_lastAccessPlatform = "None";
 
     /// <summary>
     /// PlayerData 생성자
@@ -44,6 +43,7 @@ public class PlayerData
         m_playerOwnedCharacters = new bool[Setting.m_characterNumMax];
         m_firstAccessTime = Setting.m_firstAccessTime;
         m_lastAccessTime = Setting.m_lastAccessTime;
+        m_lastAccessPlatform = Setting.m_lastAccessPlatform;
 
         // 처음에 가지고 있는캐릭터
         for (int i = 0; i < 4; i++)
