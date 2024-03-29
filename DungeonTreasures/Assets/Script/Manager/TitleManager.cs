@@ -138,8 +138,13 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
     
     private void Login_Google()
     {
-        PlayGamesPlatform.Activate();
+        PlayGamesPlatform.InitializeInstance(new PlayGamesClientConfiguration.Builder()
+            .RequestIdToken()
+            .Build());
+        PlayGamesPlatform.DebugLogEnabled = true;
+
         // 구글 로그인
+        PlayGamesPlatform.Activate();
         Social.localUser.Authenticate(ProcessAuthentication);
     }
 
@@ -150,10 +155,11 @@ public class TitleManager : SingleTonMonoBehaviour<TitleManager>
             // Continue with Play Games Services
             Debug.Log("구글 인증 완료");
             var authcode = PlayGamesPlatform.Instance.GetServerAuthCode();
-           
+            var idToken = PlayGamesPlatform.Instance.GetIdToken();
+
             Debug.Log("Firebase 인증 시작");
             // 파이어베이스 연동 시작
-            FirebaseManager.Instance.FirebaseAuth(authcode, AuthSuccess, AuthFailed);
+            FirebaseManager.Instance.FirebaseAuth(idToken, "", AuthSuccess, AuthFailed);
         }
         else
         {

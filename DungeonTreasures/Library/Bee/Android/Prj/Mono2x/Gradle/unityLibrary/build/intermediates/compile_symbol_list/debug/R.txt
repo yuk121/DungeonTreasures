@@ -1,8 +1,17 @@
+int anim fragment_fast_out_extra_slow_in 0x0
+int animator fragment_close_enter 0x0
+int animator fragment_close_exit 0x0
+int animator fragment_fade_enter 0x0
+int animator fragment_fade_exit 0x0
+int animator fragment_open_enter 0x0
+int animator fragment_open_exit 0x0
 int attr alpha 0x0
 int attr buttonSize 0x0
 int attr circleCrop 0x0
 int attr colorScheme 0x0
 int attr coordinatorLayoutStyle 0x0
+int attr drawerLayoutStyle 0x0
+int attr elevation 0x0
 int attr font 0x0
 int attr fontProviderAuthority 0x0
 int attr fontProviderCerts 0x0
@@ -29,6 +38,7 @@ int attr queryPatterns 0x0
 int attr scopeUris 0x0
 int attr shortcutMatchRequired 0x0
 int attr statusBarBackground 0x0
+int attr swipeRefreshLayoutProgressSpinnerBackgroundColor 0x0
 int attr ttcIndex 0x0
 int bool abc_action_bar_embed_tabs 0x0
 int color androidx_core_ripple_material_light 0x0
@@ -64,6 +74,7 @@ int dimen compat_button_padding_vertical_material 0x0
 int dimen compat_control_corner_material 0x0
 int dimen compat_notification_large_icon_max_height 0x0
 int dimen compat_notification_large_icon_max_width 0x0
+int dimen def_drawer_elevation 0x0
 int dimen notification_action_icon_size 0x0
 int dimen notification_action_text_size 0x0
 int dimen notification_big_circle_margin 0x0
@@ -154,6 +165,7 @@ int id action_text 0x0
 int id actions 0x0
 int id adjust_height 0x0
 int id adjust_width 0x0
+int id all 0x0
 int id async 0x0
 int id auto 0x0
 int id blocking 0x0
@@ -164,12 +176,21 @@ int id browser_actions_menu_item_text 0x0
 int id browser_actions_menu_items 0x0
 int id browser_actions_menu_view 0x0
 int id cancel_action 0x0
+int id center 0x0
+int id center_horizontal 0x0
+int id center_vertical 0x0
 int id chronometer 0x0
+int id clip_horizontal 0x0
+int id clip_vertical 0x0
 int id dark 0x0
 int id dialog_button 0x0
 int id end 0x0
 int id end_padder 0x0
+int id fill 0x0
+int id fill_horizontal 0x0
+int id fill_vertical 0x0
 int id forever 0x0
+int id fragment_container_view_tag 0x0
 int id icon 0x0
 int id icon_group 0x0
 int id icon_only 0x0
@@ -180,6 +201,7 @@ int id light 0x0
 int id line1 0x0
 int id line3 0x0
 int id media_actions 0x0
+int id media_controller_compat_view_tag 0x0
 int id none 0x0
 int id normal 0x0
 int id notification_background 0x0
@@ -188,6 +210,7 @@ int id notification_main_column_container 0x0
 int id right 0x0
 int id right_icon 0x0
 int id right_side 0x0
+int id special_effects_controller_view_tag 0x0
 int id standard 0x0
 int id start 0x0
 int id status_bar_latest_event_content 0x0
@@ -211,6 +234,9 @@ int id title 0x0
 int id top 0x0
 int id unitySurfaceView 0x0
 int id view_tree_lifecycle_owner 0x0
+int id view_tree_saved_state_registry_owner 0x0
+int id view_tree_view_model_store_owner 0x0
+int id visible_removing_fragment_view_tag 0x0
 int id wide 0x0
 int integer cancel_button_image_alpha 0x0
 int integer google_play_services_version 0x0
@@ -269,7 +295,6 @@ int string google_api_key 0x0
 int string google_app_id 0x0
 int string google_crash_reporting_api_key 0x0
 int string google_storage_bucket 0x0
-int string play_games_sdk_version 0x0
 int string project_id 0x0
 int string status_bar_notification_info_overflow 0x0
 int style AppBaseTheme 0x0
@@ -285,7 +310,6 @@ int style TextAppearance_Compat_Notification_Time 0x0
 int style TextAppearance_Compat_Notification_Time_Media 0x0
 int style TextAppearance_Compat_Notification_Title 0x0
 int style TextAppearance_Compat_Notification_Title_Media 0x0
-int style Theme_Games_Transparent 0x0
 int style UnityThemeSelector 0x0
 int style UnityThemeSelector_Translucent 0x0
 int style Widget_Compat_NotificationActionContainer 0x0
@@ -311,6 +335,8 @@ int styleable CoordinatorLayout_Layout_layout_behavior 3
 int styleable CoordinatorLayout_Layout_layout_dodgeInsetEdges 4
 int styleable CoordinatorLayout_Layout_layout_insetEdge 5
 int styleable CoordinatorLayout_Layout_layout_keyline 6
+int[] styleable DrawerLayout { 0x0 }
+int styleable DrawerLayout_elevation 0
 int[] styleable FontFamily { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable FontFamily_fontProviderAuthority 0
 int styleable FontFamily_fontProviderCerts 1
@@ -330,6 +356,13 @@ int styleable FontFamilyFont_fontStyle 6
 int styleable FontFamilyFont_fontVariationSettings 7
 int styleable FontFamilyFont_fontWeight 8
 int styleable FontFamilyFont_ttcIndex 9
+int[] styleable Fragment { 0x10100d0, 0x1010003, 0x10100d1 }
+int styleable Fragment_android_id 0
+int styleable Fragment_android_name 1
+int styleable Fragment_android_tag 2
+int[] styleable FragmentContainerView { 0x1010003, 0x10100d1 }
+int styleable FragmentContainerView_android_name 0
+int styleable FragmentContainerView_android_tag 1
 int[] styleable GradientColor { 0x101020b, 0x10101a2, 0x10101a3, 0x101019e, 0x1010512, 0x1010513, 0x10101a4, 0x101019d, 0x1010510, 0x1010511, 0x1010201, 0x10101a1 }
 int styleable GradientColor_android_centerColor 0
 int styleable GradientColor_android_centerX 1
@@ -354,5 +387,7 @@ int[] styleable SignInButton { 0x0, 0x0, 0x0 }
 int styleable SignInButton_buttonSize 0
 int styleable SignInButton_colorScheme 1
 int styleable SignInButton_scopeUris 2
+int[] styleable SwipeRefreshLayout { 0x0 }
+int styleable SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor 0
 int xml ga_ad_services_config 0x0
 int xml image_share_filepaths 0x0

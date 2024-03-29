@@ -27,17 +27,43 @@ public class FirebaseManager : DontDestory<FirebaseManager>
     {
         m_auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
         m_credential = PlayGamesAuthProvider.GetCredential(authCode);
-        m_auth.SignInAndRetrieveDataWithCredentialAsync(m_credential).ContinueWithOnMainThread((task) =>
+        m_auth.SignInWithCredentialAsync(m_credential).ContinueWithOnMainThread((task) =>
         {           
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInAndRetrieveDataWithCredentialAsync was canceled.");
                 callbackFailed.Invoke();
+                return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInAndRetrieveDataWithCredentialAsync encountered an error: " + task.Exception);
                 callbackFailed.Invoke();
+                return;
+            }
+
+            Debug.Log("Firebase 인증 완료");
+            callbackSuccess.Invoke();
+        });
+    }
+
+    public void FirebaseAuth(string googleIdToken, string googleAccessToken, Action callbackSuccess, Action callbackFailed)
+    {
+        m_auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
+        m_credential = GoogleAuthProvider.GetCredential(googleIdToken, googleAccessToken);
+        m_auth.SignInWithCredentialAsync(m_credential).ContinueWithOnMainThread((task) =>
+        {
+            if (task.IsCanceled)
+            {
+                Debug.LogError("SignInAndRetrieveDataWithCredentialAsync was canceled.");
+                callbackFailed.Invoke();
+                return;
+            }
+            if (task.IsFaulted)
+            {
+                Debug.LogError("SignInAndRetrieveDataWithCredentialAsync encountered an error: " + task.Exception);
+                callbackFailed.Invoke();
+                return;
             }
 
             Debug.Log("Firebase 인증 완료");

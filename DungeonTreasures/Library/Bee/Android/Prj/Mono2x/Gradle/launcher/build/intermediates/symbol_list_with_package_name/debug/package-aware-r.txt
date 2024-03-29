@@ -237,7 +237,6 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
-string play_games_sdk_version
 string project_id
 string status_bar_notification_info_overflow
 style AppBaseTheme
@@ -248,7 +247,6 @@ style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
-style Theme_Games_Transparent
 style UnityThemeSelector
 style UnityThemeSelector_Translucent
 style Widget_Compat_NotificationActionContainer

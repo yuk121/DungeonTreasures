@@ -30,7 +30,7 @@
 23-->C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\AndroidManifest.xml:20:9-21:44
 24            android:name="com.google.android.gms.games.unityVersion"
 24-->C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\AndroidManifest.xml:20:20-76
-25            android:value="\u0030.11.01" />
+25            android:value="\u0030.10.14" />
 25-->C:\Users\0dudd\Documents\GitHub\DungeonTreasures\DungeonTreasures\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GooglePlayGamesManifest.androidlib\AndroidManifest.xml:21:13-41
 26
 27        <activity

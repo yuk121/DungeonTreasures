@@ -104,6 +104,15 @@
             android:value="portrait|landscape" />
 
         <activity
+            android:name="com.google.games.bridge.GenericResolutionActivity"
+            android:exported="false"
+            android:label="GenericResolutionActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="instantapps.clients.allowed"
+                android:value="true" />
+        </activity>
+        <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
             android:exported="false"
@@ -115,7 +124,8 @@
         <service
             android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
             android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"
@@ -186,31 +196,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.google.games.bridge.GenericResolutionActivity"
-            android:exported="false"
-            android:label="GenericResolutionActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
-            <meta-data
-                android:name="instantapps.clients.allowed"
-                android:value="true" />
-        </activity>
-
-        <provider
-            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
-            android:authorities="com.duddnr.DungeonTreasures.playgamesinitprovider"
-            android:exported="false"
-            android:initOrder="99" />
-
-        <activity
-            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Games.Transparent" />
-
-        <meta-data
-            android:name="com.google.android.gms.games.version"
-            android:value="@string/play_games_sdk_version" />
-
-        <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
@@ -226,7 +211,7 @@
             android:value="\u003197296602363" /> <!-- Keep track of which plugin is being used -->
         <meta-data
             android:name="com.google.android.gms.games.unityVersion"
-            android:value="\u0030.11.01" />
+            android:value="\u0030.10.14" />
 
         <activity
             android:name="com.google.games.bridge.NativeBridgeActivity"

@@ -236,9 +236,8 @@ int string google_api_key 0x7f0a0020
 int string google_app_id 0x7f0a0021
 int string google_crash_reporting_api_key 0x7f0a0022
 int string google_storage_bucket 0x7f0a0023
-int string play_games_sdk_version 0x7f0a0024
-int string project_id 0x7f0a0025
-int string status_bar_notification_info_overflow 0x7f0a0026
+int string project_id 0x7f0a0024
+int string status_bar_notification_info_overflow 0x7f0a0025
 int style AppBaseTheme 0x7f0b0000
 int style AppTheme 0x7f0b0001
 int style BaseUnityTheme 0x7f0b0002
@@ -247,11 +246,10 @@ int style TextAppearance_Compat_Notification_Info 0x7f0b0004
 int style TextAppearance_Compat_Notification_Line2 0x7f0b0005
 int style TextAppearance_Compat_Notification_Time 0x7f0b0006
 int style TextAppearance_Compat_Notification_Title 0x7f0b0007
-int style Theme_Games_Transparent 0x7f0b0008
-int style UnityThemeSelector 0x7f0b0009
-int style UnityThemeSelector_Translucent 0x7f0b000a
-int style Widget_Compat_NotificationActionContainer 0x7f0b000b
-int style Widget_Compat_NotificationActionText 0x7f0b000c
+int style UnityThemeSelector 0x7f0b0008
+int style UnityThemeSelector_Translucent 0x7f0b0009
+int style Widget_Compat_NotificationActionContainer 0x7f0b000a
+int style Widget_Compat_NotificationActionText 0x7f0b000b
 int[] styleable Capability { 0x7f010013, 0x7f010015 }
 int styleable Capability_queryPatterns 0
 int styleable Capability_shortcutMatchRequired 1
